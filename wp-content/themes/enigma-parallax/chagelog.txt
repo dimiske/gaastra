@@ -1,0 +1,9 @@
+Version 0.8 [21-11-2015]
+1. Service link option added in customizer option.
+2. Minor issue fixed in home contact section.
+
+Version 0.7 [18-11-2015]
+1. Minor issue fixed.
+2. Parallax menu working all pages.
+
+Relased Version -0.6
