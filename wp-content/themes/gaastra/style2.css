@@ -1,0 +1,95 @@
+/* Variables */
+/* Style */
+/* line 10, style2.scss */
+.site-header nav {
+  border-bottom: 1px solid #b8bec9;
+}
+
+/* line 15, style2.scss */
+.padding-big {
+  padding: 80px 0 40px 0;
+}
+
+/* line 19, style2.scss */
+.padding-medium {
+  padding: 40px 0;
+}
+
+/* line 23, style2.scss */
+.padding-small {
+  padding: 20px 0;
+}
+
+/* line 26, style2.scss */
+.paragraph-big {
+  margin: 0 auto;
+  max-width: 900px;
+  font-size: 20px;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  color: #14284b;
+}
+
+/* line 35, style2.scss */
+.vertical-container {
+  width: 495px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 44, style2.scss */
+.aria-section {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #14284b;
+}
+
+/* line 49, style2.scss */
+.timeline-container {
+  background-color: #eadacb;
+  padding-bottom: 20px;
+}
+/* line 52, style2.scss */
+.timeline-container .padding-small {
+  margin-right: 40px;
+}
+/* line 55, style2.scss */
+.timeline-container .years {
+  font-family: Lora, serif;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+/* line 62, style2.scss */
+.module {
+  margin-bottom: 20px;
+}
+/* line 64, style2.scss */
+.module h3 {
+  padding-bottom: 40px;
+}
+/* line 67, style2.scss */
+.module .circle {
+  position: relative;
+  margin-bottom: 20px;
+}
+/* line 70, style2.scss */
+.module .circle img {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+/* line 77, style2.scss */
+.module .circle .big-number {
+  font-family: Lora, serif;
+  font-size: 72px;
+  color: #ffffff;
+  position: absolute;
+  top: 23%;
+  left: 0;
+  width: 100%;
+}

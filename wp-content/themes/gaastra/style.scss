@@ -5,40 +5,37 @@ Description: Gaastra
 Version: 1.0
 Tags: gaastra, responsive, bootstrap
 Text Domain: gaastra
-
 */
+@import 'style2.scss';
 
 $font-serif: Lora, serif;
 $font-sans: Roboto, sans-serif;
 $text-color: #14284b;
-$gaastra-blue: #082255;
+$gaastra-blue: #14284b;
 
-
-body{
-    /*background: #f9f9f9;*/
-}
-
-h1{
+h1 {
     font-family: $font-serif;
     color: $text-color;
     font-size: 36px;
 }
-h2{
+h2 {
     font-family: $font-serif;
     color: $text-color;
     font-size: 30px;
 }
-h3{
+h3 {
     font-family: $font-sans;
     color: $text-color;
-    font-style: italic;
     font-size: 24px;
 }
 
-header{
+header {
     height: 77px;
-    .navbar, .navbar-brand{
+    .navbar {
         padding: 0;
+    }
+    .navbar-brand {
+        padding-top: 20px;
     }
     .nav-item a{
         line-height: 77px;
@@ -49,25 +46,25 @@ header{
     }
 }
 
-#page{
+#page {
     min-width: 600px;
 }
 
-.home-item{
+.home-item {
     max-height: 550px;
     overflow: hidden;
 }
 
-.site header{
-    background:#fff;
+.site-header {
+    background:#fff;   
 }
 
 
-.colectie-femei{
+.colectie-femei {
     position: relative;
 }
 
-.intro-text{
+.intro-text {
     position: absolute;
     margin-top: 2%;
     margin-left: 16%;
@@ -75,56 +72,52 @@ header{
 }
 
 
-.intro-text a{
+.intro-text a {
     color: $gaastra-blue;
     border: 1px solid $gaastra-blue;
     padding: 0.5em 2em;
 }
 
-#despre table{
-    
-}
-
-.footer-gaastra{
+.footer-gaastra {
     background: $gaastra-blue;
     height: 200px;
 }
 
-#despre table td{
+#despre table td { 
     vertical-align:  middle;
     border: none;
 }
 
-#despre table td p{
+#despre table td p {
     padding: 0 10% 5% 10%;
     text-align: center;
 }
 
-#despre table td a{
+#despre table td a {
     color: $gaastra-blue;
     border: 1px solid $gaastra-blue;
     padding: 0.5em 1em;
 }
 
-header nav a{
+header nav a {
     color: $gaastra-blue;
 }
 
-.site-header nav{
+.site-header nav {
     height: 77px;
     background: #fff;
 }
 
-.site-header nav > div{
+.site-header nav > div {
     max-width: 1280px;
     margin: 0 auto;
 }
 
-footer{
+footer {
     .navbar, .navbar-brand{
         padding: 0;
     }
-    .nav-item a{
+    .nav-item a {
         line-height: 77px;
         display: block;
         font-family: $font-sans;
