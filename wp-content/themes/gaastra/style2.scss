@@ -3,6 +3,7 @@ $border-color: #b8bec9;
 $font-serif: Lora, serif;
 $font-sans: Roboto, sans-serif;
 $text-color: #14284b;
+$text-gray: #808080;
 
 
 /* Style */
@@ -83,9 +84,65 @@ $text-color: #14284b;
 			left: 0;
 			width: 100%;
 		}
-	}
-	
+	}	
 }
 
-	
+.form-input {
+	display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: $text-gray;
+    background-color: #fff;
+    background-image: none;
+    border: .0625rem solid $border-color;
+    &:focus {
+    	outline: none;
+    }
+}
 
+.custom-button {
+	background-color: #ffffff;
+	border: 1px solid $text-color;
+	padding: 0 36px;
+	height: 40px;
+	font-weight: 400;
+	transition: all .3s ease;
+	&:focus {
+		outline: none;
+	}
+	&:hover {
+		background-color: $text-color;
+		color: #ffffff;
+	}
+}
+
+button[type="submit"] {
+	margin-top: 20px;
+}	
+
+.emphasized {
+	font-weight: 400;
+}
+
+.carousel-inner {
+	margin-left: 20px;
+}
+.carousel {
+	.carousel-controller i {
+		font-size: 72px;
+		color: $border-color;
+	}
+	.left, .right {
+		position: absolute;
+		top: 108px;
+		margin-top: -36px;
+	}
+	.left {
+		left: -100px;
+	}
+	.right {
+		right: -100px;
+	}
+}
