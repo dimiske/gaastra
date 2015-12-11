@@ -8,27 +8,27 @@ Text Domain: gaastra
 */
 /* Variables */
 /* Style */
-/* line 10, style2.scss */
+/* line 11, style2.scss */
 .site-header nav {
   border-bottom: 1px solid #b8bec9;
 }
 
-/* line 15, style2.scss */
+/* line 16, style2.scss */
 .padding-big {
   padding: 80px 0 40px 0;
 }
 
-/* line 19, style2.scss */
+/* line 20, style2.scss */
 .padding-medium {
   padding: 40px 0;
 }
 
-/* line 23, style2.scss */
+/* line 24, style2.scss */
 .padding-small {
   padding: 20px 0;
 }
 
-/* line 26, style2.scss */
+/* line 27, style2.scss */
 .paragraph-big {
   margin: 0 auto;
   max-width: 900px;
@@ -38,7 +38,7 @@ Text Domain: gaastra
   color: #14284b;
 }
 
-/* line 35, style2.scss */
+/* line 36, style2.scss */
 .vertical-container {
   width: 495px;
   height: 330px;
@@ -48,42 +48,42 @@ Text Domain: gaastra
   justify-content: center;
 }
 
-/* line 44, style2.scss */
+/* line 45, style2.scss */
 .aria-section {
   padding-bottom: 40px;
   border-bottom: 1px solid #14284b;
 }
 
-/* line 49, style2.scss */
+/* line 50, style2.scss */
 .timeline-container {
   background-color: #eadacb;
   padding-bottom: 20px;
 }
-/* line 52, style2.scss */
+/* line 53, style2.scss */
 .timeline-container .padding-small {
   margin-right: 40px;
 }
-/* line 55, style2.scss */
+/* line 56, style2.scss */
 .timeline-container .years {
   font-family: Lora, serif;
   font-size: 30px;
   margin: 0 auto;
 }
 
-/* line 62, style2.scss */
+/* line 63, style2.scss */
 .module {
   margin-bottom: 20px;
 }
-/* line 64, style2.scss */
+/* line 65, style2.scss */
 .module h3 {
   padding-bottom: 40px;
 }
-/* line 67, style2.scss */
+/* line 68, style2.scss */
 .module .circle {
   position: relative;
   margin-bottom: 20px;
 }
-/* line 70, style2.scss */
+/* line 71, style2.scss */
 .module .circle img {
   width: 190px;
   height: 190px;
@@ -91,7 +91,7 @@ Text Domain: gaastra
   display: block;
   margin: 0 auto;
 }
-/* line 77, style2.scss */
+/* line 78, style2.scss */
 .module .circle .big-number {
   font-family: Lora, serif;
   font-size: 72px;
@@ -100,6 +100,77 @@ Text Domain: gaastra
   top: 23%;
   left: 0;
   width: 100%;
+}
+
+/* line 90, style2.scss */
+.form-input {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: gray;
+  background-color: #fff;
+  background-image: none;
+  border: 0.0625rem solid #b8bec9;
+}
+/* line 100, style2.scss */
+.form-input:focus {
+  outline: none;
+}
+
+/* line 105, style2.scss */
+.custom-button {
+  background-color: #ffffff;
+  border: 1px solid #14284b;
+  padding: 0 36px;
+  height: 40px;
+  font-weight: 400;
+  transition: all .3s ease;
+}
+/* line 112, style2.scss */
+.custom-button:focus {
+  outline: none;
+}
+/* line 115, style2.scss */
+.custom-button:hover {
+  background-color: #14284b;
+  color: #ffffff;
+}
+
+/* line 121, style2.scss */
+button[type="submit"] {
+  margin-top: 20px;
+}
+
+/* line 125, style2.scss */
+.emphasized {
+  font-weight: 400;
+}
+
+/* line 129, style2.scss */
+.carousel-inner {
+  margin-left: 20px;
+}
+
+/* line 133, style2.scss */
+.carousel .carousel-controller i {
+  font-size: 72px;
+  color: #b8bec9;
+}
+/* line 137, style2.scss */
+.carousel .left, .carousel .right {
+  position: absolute;
+  top: 108px;
+  margin-top: -36px;
+}
+/* line 142, style2.scss */
+.carousel .left {
+  left: -100px;
+}
+/* line 145, style2.scss */
+.carousel .right {
+  right: -100px;
 }
 
 /* line 16, style.scss */
