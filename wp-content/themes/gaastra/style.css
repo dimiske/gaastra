@@ -1,0 +1,201 @@
+/*
+Theme Name: GAASTRA
+Author: Fortech | Misi Veres, Alexandra Geogea
+Description: Gaastra 
+Version: 1.0
+Tags: gaastra, responsive, bootstrap
+Text Domain: gaastra
+*/
+/* Variables */
+/* Style */
+p {
+  font-size: 16px; }
+
+.site-header nav {
+  border-bottom: 1px solid #b8bec9; }
+
+.padding-big {
+  padding: 80px 0 40px 0; }
+
+.padding-medium {
+  padding: 40px 0; }
+
+.padding-small {
+  padding: 20px 0; }
+
+.aria-section {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #b8bec9; }
+
+.smaller-width {
+  max-width: 600px; }
+
+.timeline-container {
+  background-image: url(images/despre/despre-pattern.jpg);
+  padding-bottom: 20px; }
+  .timeline-container .padding-small {
+    margin-right: 40px; }
+  .timeline-container .years {
+    font-family: Lora, serif;
+    font-size: 30px;
+    margin: 0 auto; }
+
+.module {
+  margin-bottom: 20px; }
+  .module h3 {
+    padding-bottom: 40px; }
+  .module .circle {
+    position: relative;
+    margin-bottom: 20px; }
+    .module .circle img {
+      width: 190px;
+      height: 190px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto; }
+    .module .circle .big-number {
+      font-family: Lora, serif;
+      font-size: 72px;
+      color: #ffffff;
+      position: absolute;
+      top: 23%;
+      left: 0;
+      width: 100%; }
+
+.form-input {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #808080;
+  background-color: #fff;
+  background-image: none;
+  border: 0.0625rem solid #b8bec9; }
+  .form-input:focus {
+    outline: none; }
+
+.custom-button {
+  background-color: #ffffff;
+  border: 1px solid #14284b;
+  padding: 0 36px;
+  height: 40px;
+  font-weight: 400;
+  transition: all .3s ease; }
+  .custom-button:focus {
+    outline: none; }
+  .custom-button:hover {
+    background-color: #14284b;
+    color: #ffffff; }
+
+button[type="submit"] {
+  margin-top: 20px; }
+
+.emphasized {
+  font-weight: 400; }
+
+.carousel-inner {
+  margin-left: 20px; }
+
+.carousel .carousel-controller i {
+  font-size: 72px;
+  color: #b8bec9; }
+.carousel .left, .carousel .right {
+  position: absolute;
+  top: 108px;
+  margin-top: -36px; }
+.carousel .left {
+  left: -100px; }
+.carousel .right {
+  right: -100px; }
+
+h1 {
+  font-family: Lora, serif;
+  color: #14284b;
+  font-size: 36px; }
+
+h2 {
+  font-family: Lora, serif;
+  color: #14284b;
+  font-size: 30px; }
+
+h3 {
+  font-family: Roboto, sans-serif;
+  color: #14284b;
+  font-size: 24px; }
+
+header {
+  height: 77px; }
+  header .navbar {
+    padding: 0; }
+  header .navbar-brand {
+    padding-top: 20px; }
+  header .nav-item a {
+    line-height: 77px;
+    display: block;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 16px; }
+
+#page {
+  min-width: 600px; }
+
+.home-item {
+  max-height: 550px;
+  overflow: hidden; }
+
+.site-header {
+  background: #fff; }
+
+.colectie-femei {
+  position: relative; }
+
+.intro-text {
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 16%;
+  width: 37%; }
+
+.intro-text a {
+  color: #14284b;
+  border: 1px solid #14284b;
+  padding: 0.5em 2em; }
+
+.footer-gaastra {
+  background: #14284b;
+  height: 200px; }
+
+#despre table td {
+  vertical-align: middle;
+  border: none; }
+
+#despre table td p {
+  padding: 0 10% 5% 10%;
+  text-align: center; }
+
+#despre table td a {
+  color: #14284b;
+  border: 1px solid #14284b;
+  padding: 0.5em 1em; }
+
+header nav a {
+  color: #14284b; }
+
+.site-header nav {
+  height: 77px;
+  background: #fff; }
+
+.site-header nav > div {
+  max-width: 1280px;
+  margin: 0 auto; }
+
+footer .navbar, footer .navbar-brand {
+  padding: 0; }
+footer .nav-item a {
+  line-height: 77px;
+  display: block;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 16px; }
+
+/*# sourceMappingURL=style.css.map */
