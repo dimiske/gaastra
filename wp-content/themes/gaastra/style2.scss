@@ -7,6 +7,9 @@ $text-gray: #808080;
 
 
 /* Style */
+p {
+	font-size: 16px;
+}
 .site-header {
 	nav {
         border-bottom: 1px solid $border-color;
@@ -24,31 +27,18 @@ $text-gray: #808080;
 .padding-small {
 	padding: 20px 0;
 }
-.paragraph-big {
-	margin: 0 auto;
-	max-width: 900px;
-	font-size: 20px;
-	font-family: $font-sans;
-	font-weight: 300;
-	color: $text-color;
-}
-
-.vertical-container {
-	width: 495px;
-	height: 330px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
 
 .aria-section {
 	padding-bottom: 40px;
-	border-bottom: 1px solid $text-color;
+	border-bottom: 1px solid $border-color;
 }
 
+.smaller-width{
+	max-width: 600px;
+} 
+
 .timeline-container {
-	background-color: #eadacb;
+	background-image: url(images/despre/despre-pattern.jpg);
 	padding-bottom: 20px;
 	.padding-small {
 		margin-right: 40px;
