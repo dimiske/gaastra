@@ -1,4 +1,4 @@
-<article class="colectie-femei row home-item p-a-0 m-l-0  m-r-0" style="margin-bottom: 40px;">
+<article class="colectie-femei row banner-item p-a-0 m-l-0  m-r-0" style="margin-bottom: 40px;">
     <?php
     $args = array(
         'name'        => 'colectia-femei',
@@ -41,7 +41,7 @@
 </article>
 
 
-<article class="colectie-barbati row home-item p-a-0 m-l-0  m-r-0" style="margin-bottom: 40px;">
+<article class="colectie-barbati row banner-item p-a-0 m-l-0  m-r-0" style="margin-bottom: 40px;">
     <?php
     $args = array(
         'name'        => 'colectia-barbati',
@@ -66,7 +66,7 @@
     <div class="col-lg-2"></div>
 </article>
 
-<article class="colectie-copii row home-item p-a-0 m-l-0  m-r-0" style="margin-bottom: 50px;">
+<article class="colectie-copii row banner-item p-a-0 m-l-0  m-r-0" style="margin-bottom: 50px;">
     <?php
     $args = array(
         'name'        => 'colectia-copii',

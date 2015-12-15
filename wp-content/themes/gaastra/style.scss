@@ -50,24 +50,29 @@ header {
     min-width: 600px;
 }
 
-.home-item {
+.banner-item {
     max-height: 550px;
     overflow: hidden;
+}
+
+.banner-item a{
+    @extend .custom-button;
+    background: none;
+    text-decoration: none;
 }
 
 .site-header {
     background:#fff;   
 }
 
-
-.colectie-femei {
+article{
     position: relative;
 }
 
 .intro-text {
     position: absolute;
-    margin-top: 2%;
-    margin-left: 16%;
+    top: 20%;
+    left: 10%;
     width: 37%;
 }
 

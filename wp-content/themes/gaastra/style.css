@@ -75,16 +75,16 @@ p {
   .form-input:focus {
     outline: none; }
 
-.custom-button {
+.custom-button, .banner-item a {
   background-color: #ffffff;
   border: 1px solid #14284b;
   padding: 0 36px;
   height: 40px;
   font-weight: 400;
   transition: all .3s ease; }
-  .custom-button:focus {
+  .custom-button:focus, .banner-item a:focus {
     outline: none; }
-  .custom-button:hover {
+  .custom-button:hover, .banner-item a:hover {
     background-color: #14284b;
     color: #ffffff; }
 
@@ -140,20 +140,24 @@ header {
 #page {
   min-width: 600px; }
 
-.home-item {
+.banner-item {
   max-height: 550px;
   overflow: hidden; }
+
+.banner-item a {
+  background: none;
+  text-decoration: none; }
 
 .site-header {
   background: #fff; }
 
-.colectie-femei {
+article {
   position: relative; }
 
 .intro-text {
   position: absolute;
-  margin-top: 2%;
-  margin-left: 16%;
+  top: 20%;
+  left: 10%;
   width: 37%; }
 
 .intro-text a {
