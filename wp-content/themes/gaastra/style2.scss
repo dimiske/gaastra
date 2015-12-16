@@ -9,7 +9,9 @@ $text-gray: #808080;
 /* Style */
 p {
 	font-size: 16px;
+	font-family: $font-sans;
 }
+
 .site-header {
 	nav {
         border-bottom: 1px solid $border-color;
@@ -35,7 +37,12 @@ p {
 
 .smaller-width{
 	max-width: 600px;
-} 
+}  
+
+.smaller-text {
+	font-size: 16px; 
+	font-weight: 400;
+}
 
 .timeline-container {
 	background-image: url(images/despre/despre-pattern.jpg);
@@ -47,6 +54,13 @@ p {
 		font-family: $font-serif;
 		font-size: 30px;
 		margin: 0 auto;
+	}
+	.despre-thumbnails {
+		max-width: 326px;
+		max-height: 218px;
+		width: auto;
+		height: auto;
+		margin-bottom: 20px;
 	}
 }
 
@@ -81,14 +95,18 @@ p {
 	display: block;
     width: 100%;
     padding: .375rem .75rem;
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 1.5;
     color: $text-gray;
     background-color: #fff;
     background-image: none;
-    border: .0625rem solid $border-color;
+    border: 1px solid $border-color;
+    border-radius: 0;
     &:focus {
     	outline: none;
+    }
+    textarea {
+    	height: 200px;
     }
 }
 
@@ -113,26 +131,100 @@ button[type="submit"] {
 }	
 
 .emphasized {
-	font-weight: 400;
+	font-weight: 500;
 }
 
-.carousel-inner {
-	margin-left: 20px;
+#contactCarousel {
+	.carousel-inner {
+		width: 100%;
+		overflow: hidden;
+		height: 230px;
+		position: relative;
+	}
+	.carousel-control {
+		background-image: none;
+		top: 40%;
+		i {
+			font-size: 60px;
+			color: $border-color;
+		}
+	}
 }
-.carousel {
-	.carousel-controller i {
-		font-size: 72px;
-		color: $border-color;
+
+#productCarousel {
+	.carousel-inner {
+		width: 100%;
+		overflow: hidden;
+		height: 520px;
+		position: relative;
 	}
-	.left, .right {
-		position: absolute;
-		top: 108px;
-		margin-top: -36px;
+	.carousel-control {
+		background-image: none;
+		top: 40%;
+		i {
+			font-size: 60px;
+			color: $border-color;
+		}
 	}
-	.left {
-		left: -100px;
+}
+
+.carousel-indicators li {
+	border: 2px solid $text-color;
+}
+
+.carousel-indicators .active {
+	background-color: $text-color;
+}
+
+.properties-list {
+	list-style-image: url(images/list-bullet.png);
+	margin-bottom: 0;
+	padding: 0;
+
+}
+
+.gray-link {
+	color: $text-gray;
+	&:hover {
+	text-decoration: none;
 	}
-	.right {
-		right: -100px;
+}
+
+.colored-box {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	padding-bottom: 5px;
+}
+
+.blue {
+	background-color: $text-color;
+}
+
+.white {
+	background-color: #fff;
+	border: 2px solid $text-color;
+}
+
+.black {
+	background-color: #000;
+}
+
+.product-colors > ul, .product-measures > ul {
+	list-style: none;
+	padding: 0;
+	li {
+		display: inline-block;
 	}
+}
+
+.active-color {
+	border-bottom: 2px solid $text-color;
+}
+
+.measure-box {
+	padding: 9px 13px;
+	border: 2px solid $text-color;
+	font-weight: 600;
+	text-align: center;
 }

@@ -13,12 +13,16 @@
 //        });
     </script>
     <script>
-    $(document).ready(function() {
-    $('#Carousel').carousel({
-        interval: false,
-        pause: true
-    })
-}); 
+        $(document).ready(function() {
+            $('#contactCarousel').carousel({
+                pause: true,
+                interval: false
+            });
+            $('#productCarousel').carousel({
+                pause: true,
+                interval: false
+            });
+        });
     </script>
     <?php wp_footer(); ?>
 

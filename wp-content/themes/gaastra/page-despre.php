@@ -120,22 +120,22 @@
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-4 col-lg-4 p-a-0 m-r-0">
-				<figure>
+				<figure class="despre-thumbnails">
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-image-6.jpg" class="img-responsive">
 				</figure>
-				<figure>
+				<figure class="despre-thumbnails">
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-image-7.jpg" class="img-responsive">
 				</figure>
-				<figure>
+				<figure class="despre-thumbnails">
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-image-8.jpg" class="img-responsive">
 				</figure>
-				<figure>
+				<figure class="despre-thumbnails">
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-image-9.jpg" class="img-responsive">
 				</figure>
-				<figure>
+				<figure class="despre-thumbnails">
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-image-10.jpg" class="img-responsive">
 				</figure>
-				<figure>
+				<figure class="despre-thumbnails">
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-image-11.jpg" class="img-responsive">
 				</figure>
 			</div>
