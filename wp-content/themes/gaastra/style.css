@@ -156,71 +156,95 @@ button[type="submit"] {
 /* line 133, style2.scss */
 .emphasized {
   font-weight: 500;
+  color: #14284b;
 }
 
 /* line 138, style2.scss */
+.margin-top {
+  margin-top: 20px;
+}
+
+/* line 143, style2.scss */
 #contactCarousel .carousel-inner {
   width: 100%;
   overflow: hidden;
   height: 230px;
   position: relative;
 }
-/* line 144, style2.scss */
+/* line 149, style2.scss */
 #contactCarousel .carousel-control {
   background-image: none;
   top: 40%;
 }
-/* line 147, style2.scss */
+/* line 152, style2.scss */
 #contactCarousel .carousel-control i {
   font-size: 60px;
   color: #b8bec9;
 }
 
-/* line 155, style2.scss */
+/* line 160, style2.scss */
 #productCarousel .carousel-inner {
   width: 100%;
   overflow: hidden;
   height: 520px;
   position: relative;
 }
-/* line 161, style2.scss */
+/* line 166, style2.scss */
 #productCarousel .carousel-control {
   background-image: none;
   top: 40%;
 }
-/* line 164, style2.scss */
+/* line 169, style2.scss */
 #productCarousel .carousel-control i {
   font-size: 60px;
   color: #b8bec9;
 }
 
-/* line 171, style2.scss */
+/* line 177, style2.scss */
+#recomandationCarousel .carousel-inner {
+  width: 100%;
+  overflow: hidden;
+  height: 350px;
+  position: relative;
+}
+/* line 183, style2.scss */
+#recomandationCarousel .carousel-control {
+  background-image: none;
+  top: 30%;
+}
+/* line 186, style2.scss */
+#recomandationCarousel .carousel-control i {
+  font-size: 60px;
+  color: #b8bec9;
+}
+
+/* line 193, style2.scss */
 .carousel-indicators li {
   border: 2px solid #14284b;
 }
 
-/* line 175, style2.scss */
+/* line 197, style2.scss */
 .carousel-indicators .active {
   background-color: #14284b;
 }
 
-/* line 179, style2.scss */
+/* line 201, style2.scss */
 .properties-list {
   list-style-image: url(images/list-bullet.png);
   margin-bottom: 0;
   padding: 0;
 }
 
-/* line 186, style2.scss */
+/* line 208, style2.scss */
 .gray-link {
   color: gray;
 }
-/* line 188, style2.scss */
+/* line 210, style2.scss */
 .gray-link:hover {
   text-decoration: none;
 }
 
-/* line 193, style2.scss */
+/* line 215, style2.scss */
 .colored-box {
   width: 40px;
   height: 40px;
@@ -228,38 +252,38 @@ button[type="submit"] {
   padding-bottom: 5px;
 }
 
-/* line 200, style2.scss */
+/* line 222, style2.scss */
 .blue {
   background-color: #14284b;
 }
 
-/* line 204, style2.scss */
+/* line 226, style2.scss */
 .white {
   background-color: #fff;
   border: 2px solid #14284b;
 }
 
-/* line 209, style2.scss */
+/* line 231, style2.scss */
 .black {
   background-color: #000;
 }
 
-/* line 213, style2.scss */
+/* line 235, style2.scss */
 .product-colors > ul, .product-measures > ul {
   list-style: none;
   padding: 0;
 }
-/* line 216, style2.scss */
+/* line 238, style2.scss */
 .product-colors > ul li, .product-measures > ul li {
   display: inline-block;
 }
 
-/* line 221, style2.scss */
+/* line 243, style2.scss */
 .active-color {
   border-bottom: 2px solid #14284b;
 }
 
-/* line 225, style2.scss */
+/* line 247, style2.scss */
 .measure-box {
   padding: 9px 13px;
   border: 2px solid #14284b;

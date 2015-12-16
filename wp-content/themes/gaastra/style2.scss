@@ -132,6 +132,11 @@ button[type="submit"] {
 
 .emphasized {
 	font-weight: 500;
+	color: $text-color;
+}
+
+.margin-top {
+	margin-top: 20px;
 }
 
 #contactCarousel {
@@ -161,6 +166,23 @@ button[type="submit"] {
 	.carousel-control {
 		background-image: none;
 		top: 40%;
+		i {
+			font-size: 60px;
+			color: $border-color;
+		}
+	}
+}
+
+#recomandationCarousel {
+	.carousel-inner {
+		width: 100%;
+		overflow: hidden;
+		height: 350px;
+		position: relative;
+	}
+	.carousel-control {
+		background-image: none;
+		top: 30%;
 		i {
 			font-size: 60px;
 			color: $border-color;
