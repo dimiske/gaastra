@@ -55,7 +55,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 text-center smaller-width">
+		<div class="col-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 text-center smaller-width margin-top">
 			<p>Istoria Gaastra a început în 1897, când Douwe Gaastra a pus bazele companiei sale de navigaţie în Seek, Olanda. Ambiţia lui a fost să facă navigaţia mai rapidă, competitivă şi eficientă. La scurt timp, Gaastra a devenit un nume comun în lumea globală de navigaţie.</p>
 		</div>
 	</div>
