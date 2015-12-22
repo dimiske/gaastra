@@ -12,6 +12,14 @@ p {
 	font-family: $font-sans;
 }
 
+.text-on-banner {
+	font-family: $font-serif;
+	font-size: 18px;
+	font-style: italic;
+	text-align: center;
+	font-weight: 600;
+}
+
 .site-header {
 	nav {
         border-bottom: 1px solid $border-color;
@@ -249,4 +257,24 @@ button[type="submit"] {
 	border: 2px solid $text-color;
 	font-weight: 600;
 	text-align: center;
+}
+
+.text-on-bottom {
+	display: flex;
+	align-items: flex-end;
+	min-height: 560px;
+}
+
+.text-under-image {
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 960px) {
+	figure {
+		margin-top: 20px;
+	}
+	.text-on-bottom {
+		display: block;
+		min-height: 50px;
+	}
 }
