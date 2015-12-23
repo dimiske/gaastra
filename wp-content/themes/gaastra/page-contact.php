@@ -2,7 +2,7 @@
 
 <div class="row">
 	<div class="intro col-lg-12 col-sm-12 col-xs-12 p-a-0 m-l-0 m-r-0">
-		<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-banner.jpg" class="img-responsive"/>
+		<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-map.png" class="img-responsive"/>
 	</div>
 </div>
 <div class="container">
