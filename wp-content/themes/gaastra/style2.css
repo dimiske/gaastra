@@ -11,63 +11,62 @@ p {
   font-family: Lora, serif;
   font-size: 18px;
   font-style: italic;
-  text-align: center;
   font-weight: 600;
 }
 
-/* line 24, style2.scss */
+/* line 23, style2.scss */
 .site-header nav {
   border-bottom: 1px solid #b8bec9;
 }
 
-/* line 29, style2.scss */
+/* line 28, style2.scss */
 .padding-big {
   padding: 80px 0 40px 0;
 }
 
-/* line 33, style2.scss */
+/* line 32, style2.scss */
 .padding-medium {
   padding: 40px 0;
 }
 
-/* line 37, style2.scss */
+/* line 36, style2.scss */
 .padding-small {
   padding: 20px 0;
 }
 
-/* line 41, style2.scss */
+/* line 40, style2.scss */
 .aria-section {
   padding-bottom: 40px;
   border-bottom: 1px solid #b8bec9;
 }
 
-/* line 46, style2.scss */
+/* line 45, style2.scss */
 .smaller-width {
   max-width: 600px;
 }
 
-/* line 50, style2.scss */
+/* line 49, style2.scss */
 .smaller-text {
   font-size: 16px;
   font-weight: 400;
 }
 
-/* line 55, style2.scss */
+/* line 54, style2.scss */
 .timeline-container {
   background-image: url(images/despre/despre-pattern.jpg);
   padding-bottom: 20px;
 }
-/* line 58, style2.scss */
+/* line 57, style2.scss */
 .timeline-container .padding-small {
   margin-right: 40px;
 }
-/* line 61, style2.scss */
+/* line 60, style2.scss */
 .timeline-container .years {
   font-family: Lora, serif;
   font-size: 30px;
   margin: 0 auto;
 }
-/* line 66, style2.scss */
+/* line 65, style2.scss */
 .timeline-container .despre-thumbnails {
   max-width: 326px;
   max-height: 218px;
@@ -76,20 +75,20 @@ p {
   margin-bottom: 20px;
 }
 
-/* line 75, style2.scss */
+/* line 74, style2.scss */
 .module {
   margin-bottom: 20px;
 }
-/* line 77, style2.scss */
+/* line 76, style2.scss */
 .module h3 {
   padding-bottom: 40px;
 }
-/* line 80, style2.scss */
+/* line 79, style2.scss */
 .module .circle {
   position: relative;
   margin-bottom: 20px;
 }
-/* line 83, style2.scss */
+/* line 82, style2.scss */
 .module .circle img {
   width: 190px;
   height: 190px;
@@ -97,7 +96,7 @@ p {
   display: block;
   margin: 0 auto;
 }
-/* line 90, style2.scss */
+/* line 89, style2.scss */
 .module .circle .big-number {
   font-family: Lora, serif;
   font-size: 72px;
@@ -108,7 +107,7 @@ p {
   width: 100%;
 }
 
-/* line 102, style2.scss */
+/* line 101, style2.scss */
 .form-input {
   display: block;
   width: 100%;
@@ -121,16 +120,16 @@ p {
   border: 1px solid #b8bec9;
   border-radius: 0;
 }
-/* line 113, style2.scss */
+/* line 112, style2.scss */
 .form-input:focus {
   outline: none;
 }
-/* line 116, style2.scss */
+/* line 115, style2.scss */
 .form-input textarea {
   height: 200px;
 }
 
-/* line 121, style2.scss */
+/* line 120, style2.scss */
 .custom-button {
   background-color: #ffffff;
   border: 1px solid #14284b;
@@ -139,113 +138,113 @@ p {
   font-weight: 400;
   transition: all .3s ease;
 }
-/* line 128, style2.scss */
+/* line 127, style2.scss */
 .custom-button:focus {
   outline: none;
 }
-/* line 131, style2.scss */
+/* line 130, style2.scss */
 .custom-button:hover {
   background-color: #14284b;
   color: #ffffff;
 }
 
-/* line 137, style2.scss */
+/* line 136, style2.scss */
 button[type="submit"] {
   margin-top: 20px;
 }
 
-/* line 141, style2.scss */
+/* line 140, style2.scss */
 .emphasized {
   font-weight: 500;
   color: #14284b;
 }
 
-/* line 146, style2.scss */
+/* line 145, style2.scss */
 .margin-top {
   margin-top: 20px;
 }
 
-/* line 151, style2.scss */
+/* line 150, style2.scss */
 #contactCarousel .carousel-inner {
   width: 100%;
   overflow: hidden;
   height: 230px;
   position: relative;
 }
-/* line 157, style2.scss */
+/* line 156, style2.scss */
 #contactCarousel .carousel-control {
   background-image: none;
   top: 40%;
 }
-/* line 160, style2.scss */
+/* line 159, style2.scss */
 #contactCarousel .carousel-control i {
   font-size: 60px;
   color: #b8bec9;
 }
 
-/* line 168, style2.scss */
+/* line 167, style2.scss */
 #productCarousel .carousel-inner {
   width: 100%;
   overflow: hidden;
   height: 520px;
   position: relative;
 }
-/* line 174, style2.scss */
+/* line 173, style2.scss */
 #productCarousel .carousel-control {
   background-image: none;
   top: 40%;
 }
-/* line 177, style2.scss */
+/* line 176, style2.scss */
 #productCarousel .carousel-control i {
   font-size: 60px;
   color: #b8bec9;
 }
 
-/* line 185, style2.scss */
+/* line 184, style2.scss */
 #recomandationCarousel .carousel-inner {
   width: 100%;
   overflow: hidden;
   height: 350px;
   position: relative;
 }
-/* line 191, style2.scss */
+/* line 190, style2.scss */
 #recomandationCarousel .carousel-control {
   background-image: none;
   top: 30%;
 }
-/* line 194, style2.scss */
+/* line 193, style2.scss */
 #recomandationCarousel .carousel-control i {
   font-size: 60px;
   color: #b8bec9;
 }
 
-/* line 201, style2.scss */
+/* line 200, style2.scss */
 .carousel-indicators li {
   border: 2px solid #14284b;
 }
 
-/* line 205, style2.scss */
+/* line 204, style2.scss */
 .carousel-indicators .active {
   background-color: #14284b;
 }
 
-/* line 209, style2.scss */
+/* line 208, style2.scss */
 .properties-list {
   list-style-image: url(images/list-bullet.png);
   margin-bottom: 0;
   padding: 0;
 }
 
-/* line 216, style2.scss */
+/* line 215, style2.scss */
 .gray-link {
   color: gray;
 }
-/* line 218, style2.scss */
+/* line 217, style2.scss */
 .gray-link:hover {
   text-decoration: none;
 }
 
-/* line 223, style2.scss */
+/* line 222, style2.scss */
 .colored-box {
   width: 40px;
   height: 40px;
@@ -253,38 +252,38 @@ button[type="submit"] {
   padding-bottom: 5px;
 }
 
-/* line 230, style2.scss */
+/* line 229, style2.scss */
 .blue {
   background-color: #14284b;
 }
 
-/* line 234, style2.scss */
+/* line 233, style2.scss */
 .white {
   background-color: #fff;
   border: 2px solid #14284b;
 }
 
-/* line 239, style2.scss */
+/* line 238, style2.scss */
 .black {
   background-color: #000;
 }
 
-/* line 243, style2.scss */
+/* line 242, style2.scss */
 .product-colors > ul, .product-measures > ul {
   list-style: none;
   padding: 0;
 }
-/* line 246, style2.scss */
+/* line 245, style2.scss */
 .product-colors > ul li, .product-measures > ul li {
   display: inline-block;
 }
 
-/* line 251, style2.scss */
+/* line 250, style2.scss */
 .active-color {
   border-bottom: 2px solid #14284b;
 }
 
-/* line 255, style2.scss */
+/* line 254, style2.scss */
 .measure-box {
   padding: 9px 13px;
   border: 2px solid #14284b;
@@ -292,27 +291,32 @@ button[type="submit"] {
   text-align: center;
 }
 
-/* line 262, style2.scss */
+/* line 261, style2.scss */
 .text-on-bottom {
   display: flex;
   align-items: flex-end;
   min-height: 560px;
 }
 
-/* line 268, style2.scss */
+/* line 267, style2.scss */
 .text-under-image {
   margin-top: 20px;
 }
 
 @media screen and (max-width: 960px) {
-  /* line 273, style2.scss */
+  /* line 272, style2.scss */
   figure {
     margin-top: 20px;
   }
 
-  /* line 276, style2.scss */
+  /* line 275, style2.scss */
   .text-on-bottom {
     display: block;
     min-height: 50px;
   }
+}
+/* line 281, style2.scss */
+.intro {
+  max-height: 500px;
+  overflow: hidden;
 }

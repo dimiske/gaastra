@@ -7,13 +7,13 @@
 </div>
 <div class="container">
 	<div class="row">
-		<div class="col-lg-12 p-a-0 m-l-0 m-r-0 text-center">
-			<h2 class="padding-big">Funcţionalitatea întâlneşte designul</h2>
+		<div class="col-sm-12 col-md-12 col-lg-12 text-center">
+			<h2 class="padding-medium">Funcţionalitatea întâlneşte designul</h2>
 			<p>GAASTRA este unul dintre liderii mondiali în materie de îmbrăcăminte de înaltă calitate, îmbinând perfect funcționalitatea cu moda. Concepută pentru bărbați, femei și copii, îmbrăcămintea GAASTRA urmărește liniile design-ului modern, păstrând la bază, prin materialele folosite și atenția la detaliu, elementele de utilitate.</p>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-lg-12 p-a-0 m-l-0 m-r-0 text-center">
+		<div class="col-sm-12 col-md-12 col-lg-12 text-center">
 			<h3 class="padding-medium">Proprietăţile hainelor Gaastra</h3>
 		</div>
 	</div>
@@ -43,7 +43,7 @@
 	</div>
 
 	<div class="row">
-		<div class="col-lg-12 p-a-0 m-l-0 m-r-0 text-center">
+		<div class="col-sm-12 col-md-12 col-lg-12 text-center">
 			<h1 class="padding-medium m-b-0">Istoria brandului Gaastra</h1>
 		</div>
 	</div>
@@ -55,7 +55,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 text-center smaller-width margin-top">
+		<div class="col-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 text-center smaller-width">
 			<p>Istoria Gaastra a început în 1897, când Douwe Gaastra a pus bazele companiei sale de navigaţie în Seek, Olanda. Ambiţia lui a fost să facă navigaţia mai rapidă, competitivă şi eficientă. La scurt timp, Gaastra a devenit un nume comun în lumea globală de navigaţie.</p>
 		</div>
 	</div>
@@ -73,11 +73,11 @@
 
 <div class="timeline-container">
 	<div class="container">
-		<div class="col-lg-12 p-a-0 m-l-0 text-center">
+		<div class="col-sm-12 col-md-12 col-lg-12 text-center">
 			<h3 class="padding-medium">Gaastra de-a lungul anilor</h3>
 		</div>
 		<div class="row">
-			<div class="col-sm-12 col-md-8 col-lg-8 p-a-0 m-r-0 m-l-0 text-center">
+			<div class="col-sm-12 col-md-8 col-lg-8 text-center">
 				<div class="padding-small">
 					<p class="years">1897</p>
 					<p>Înfiinţarea companiei de navigaţie de către Douwe Gaastra în Seek, Olanda.</p>
@@ -119,23 +119,23 @@
 					<p>Gaastra îşi deschide uşile primului magazin din România, în Cluj-Napoca.</p>
 				</div>
 			</div>
-			<div class="col-sm-12 col-md-4 col-lg-4 p-a-0 m-r-0">
-				<figure class="despre-thumbnails">
+			<div class="col-sm-12 col-md-4 col-lg-4">
+				<figure>
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-image-6.jpg" class="img-responsive">
 				</figure>
-				<figure class="despre-thumbnails">
+				<figure>
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-image-7.jpg" class="img-responsive">
 				</figure>
-				<figure class="despre-thumbnails">
+				<figure>
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-image-8.jpg" class="img-responsive">
 				</figure>
-				<figure class="despre-thumbnails">
+				<figure>
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-image-9.jpg" class="img-responsive">
 				</figure>
-				<figure class="despre-thumbnails">
+				<figure>
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-image-10.jpg" class="img-responsive">
 				</figure>
-				<figure class="despre-thumbnails">
+				<figure>
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-image-11.jpg" class="img-responsive">
 				</figure>
 			</div>
@@ -143,11 +143,11 @@
 	</div>
 </div>
 <div class="container">
-	<div class="col-lg-12 p-a-0 m-l-0 m-r-0 text-center">
+	<div class="col-sm-12 col-md-12 col-lg-12 text-center">
 		<h1 class="padding-medium">Gaastra astăzi</h1>
 	</div>	
 	<div class="row">
-		<div class="col-sm-12 col-md-4 col-lg-4 p-a-0 m-l-0 m-r-0 text-center module">
+		<div class="col-sm-12 col-md-4 col-lg-4 text-center module">
 			<h3>Partener pentru</h3>
 			<div class="circle">
 				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-image-14.jpg" class="img-responsive"/>
@@ -155,7 +155,7 @@
 			</div>
 			<p>EVENIMENTE DE NAVIGAŢIE <br>peste tot în lume</p>
 		</div>
-		<div class="col-sm-12 col-md-4 col-lg-4 p-a-0 m-l-0 m-r-0 text-center module">
+		<div class="col-sm-12 col-md-4 col-lg-4 text-center module">
 			<h3>Sponsor pentru</h3>
 			<div class="circle">
 				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-image-13.jpg" class="img-responsive"/>
@@ -163,7 +163,7 @@
 			</div>
 			<p>ECHIPE <br>din scena navigaţiei profesionale</p>
 		</div>
-		<div class="col-sm-12 col-md-4 col-lg-4 p-a-0 m-l-0 m-r-0 text-center module">
+		<div class="col-sm-12 col-md-4 col-lg-4 text-center module">
 			<h3>În mai mult de</h3>
 			<div class="circle">
 				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-image-12.png" class="img-responsive"/>
@@ -173,8 +173,5 @@
 		</div>
 	</div>
 </div>
-
-
-
 
 <?php get_footer(); ?>

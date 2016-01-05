@@ -8,21 +8,19 @@
     <script>
         jQuery('table').addClass('table');
         jQuery('table td img').addClass('img-responsive');
+        jQuery('.blogpost-item img').addClass('img-responsive img-fluid');
+        jQuery('.blogpost-item.pagination .page-numbers').addClass('button-link');
 //        jQuery('a').click(function(){
 //            return false;
 //        });
     </script>
     <script>
-        $(document).ready(function() {
-            $('#contactCarousel').carousel({
-                pause: true,
-                interval: false
-            });
-            $('#productCarousel').carousel({
-                pause: true,
-                interval: false
-            });
-        });
+    $(document).ready(function() {
+    $('#Carousel').carousel({
+        interval: false,
+        pause: true
+    })
+}); 
     </script>
     <?php wp_footer(); ?>
 

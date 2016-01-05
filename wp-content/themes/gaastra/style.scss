@@ -13,34 +13,55 @@ $font-sans: Roboto, sans-serif;
 $text-color: #14284b;
 $gaastra-blue: #14284b;
 
-h1 {
+.menu-top{
+    height: 77px;
+    position: fixed;
+    background: white;
+    z-index: 11000;
+    width: 100%;
+    border-bottom: 1px solid #b8bec9;
+}
+
+.menu-spacer{
+    height: 77px;
+}
+
+
+h1, h1 a {
     font-family: $font-serif;
     color: $text-color;
     font-size: 36px;
+    text-decoration: none;
 }
-h2 {
+h2, h2 a {
     font-family: $font-serif;
     color: $text-color;
     font-size: 30px;
-    margin-top: 0;
-    text-align: center;
+    text-decoration: none;
 }
-h3 {
+h3, h3 a {
     font-family: $font-sans;
     color: $text-color;
     font-size: 24px;
-    text-align: center;
+    text-decoration: none;
 }
 
-h4 {
-    font-family: $font-serif;
-    color: $text-color;
-    font-size: 18px;
-    margin-top: 0;
-    text-align: center;
+h1 a:hover, h2 a:hover, h3 a:hover{
+    text-decoration: none;
 }
-header {
+
+.header-container{
     height: 77px;
+    position: fixed;
+    z-index: 10000;
+    overflow: hidden;
+    background: #fff;
+    width: 100%;
+    border-bottom: 1px solid #b8bec9;
+}
+
+header {
+    /*height: 77px;*/
     .navbar {
         padding: 0;
     }
@@ -56,19 +77,48 @@ header {
     }
 }
 
-#page {
-    min-width: 600px;
-}
-
 .banner-item {
-    max-height: 550px;
     overflow: hidden;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+    background-size: cover; 
+    
+    h2, h3, h4, p{
+        font-family: $font-serif;
+        color: $text-color;
+    }
+    a{
+        @extend .custom-button;
+        background: none;
+        text-decoration: none;
+        font-family: $font-sans;
+        color: $text-color;
+        font-size: 16px;
+        padding: 10px 36px;
+    }
+    h2{
+        font-size: 36px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    p{
+        font-size: 24px;
+    }
+    .item{
+        margin: 0 auto;
+    }
 }
 
-.banner-item a{
+#despre a, .button-link{
     @extend .custom-button;
-    background: none;
-    text-decoration: none;
+        background: none;
+        text-decoration: none;
+        font-family: $font-sans;
+        color: $text-color;
+        font-size: 16px;
+        padding: 10px 36px;
 }
 
 .site-header {
@@ -76,21 +126,29 @@ header {
 }
 
 article{
+    .text-despre{
+        padding-top: 1.5rem;
+        line-height: 1.5rem;
+    }
+    h2{
+        padding: 1.5rem 0 1.5rem;
+    } 
     position: relative;
 }
 
-.intro-text {
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    width: 37%;
+article#despre div{
+    padding-bottom: 1rem;
 }
 
-
-.intro-text a {
-    color: $gaastra-blue;
-    border: 1px solid $gaastra-blue;
-    padding: 0.5em 2em;
+.intro-text {
+    h2, h3, p{
+        padding-bottom: 1.2rem;
+    }
+    width: 40%;
+    padding-top: 5%;
+    position: absolute;
+    top: 20%;
+    width: 37%;
 }
 
 .footer-gaastra {
@@ -126,6 +184,20 @@ header nav a {
 .site-header nav > div {
     max-width: 1280px;
     margin: 0 auto;
+}
+
+.blogpost-item{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.blogpost-item.item-1{
+    border-bottom: 1px solid #b8bec9;
+}
+
+.blogpost-item.item-4{
+    border-top: 1px solid #b8bec9;
+    border-bottom: 1px solid #b8bec9;
 }
 
 footer {
