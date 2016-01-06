@@ -16,7 +16,7 @@
     </script>
     <script>
     $(document).ready(function() {
-    $('#Carousel').carousel({
+    $('#contactCarousel').carousel({
         interval: false,
         pause: true
     })

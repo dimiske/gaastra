@@ -1,13 +1,13 @@
 
 <?php get_header(); ?>
 <div class="row">
-	<div class="intro col-sm-12 col-md-12 col-lg-12">
+	<div class="col-sm-12 col-md-12 col-lg-12">
 		<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-banner.jpg" class="img-responsive"/>
 	</div>
 </div>
 <div class="container">
 	<div class="row">
-		<div class="col-sm-12 col-md-12 col-lg-12 text-center">
+		<div class="col-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 text-center smaller-width">
 			<h2 class="padding-medium">Funcţionalitatea întâlneşte designul</h2>
 			<p>GAASTRA este unul dintre liderii mondiali în materie de îmbrăcăminte de înaltă calitate, îmbinând perfect funcționalitatea cu moda. Concepută pentru bărbați, femei și copii, îmbrăcămintea GAASTRA urmărește liniile design-ului modern, păstrând la bază, prin materialele folosite și atenția la detaliu, elementele de utilitate.</p>
 		</div>
@@ -21,21 +21,21 @@
 	<div class="row aria-section">
 		<div class="col-sm-12 col-md-4 col-lg-4 text-center">
 			<figure>
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-image-1.jpg" class="img-responsive">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-image-1.jpg" class="img-responsive img-thumbnail">
 			</figure>
 			<h3>Apă</h3>
 			<p>Materiale impermeabile, cusături sigilate.</p>
 		</div>
 		<div class="col-sm-12 col-md-4 col-lg-4 text-center">
 			<figure>
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-image-2.jpg" class="img-responsive">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-image-2.jpg" class="img-responsive img-thumbnail">
 			</figure>
 			<h3>Vânt</h3>
 			<p>Materiale cu rezistenţă crescută la vânt.</p>
 		</div>
 		<div class="col-sm-12 col-md-4 col-lg-4 text-center">
 			<figure>
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-image-3.jpg" class="img-responsive">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-image-3.jpg" class="img-responsive img-thumbnail">
 			</figure>
 			<h3>Temperatură</h3>
 			<p>Materiale subţiri, cu transfer termic foarte mic.</p>
@@ -44,7 +44,7 @@
 
 	<div class="row">
 		<div class="col-sm-12 col-md-12 col-lg-12 text-center">
-			<h1 class="padding-medium m-b-0">Istoria brandului Gaastra</h1>
+			<h1 class="padding-medium">Istoria brandului Gaastra</h1>
 		</div>
 	</div>
 	<div class="row">

@@ -37,6 +37,10 @@ p {
 	padding: 20px 0;
 }
 
+figure {
+	margin-bottom: 10px;
+}
+
 .aria-section {
 	padding-bottom: 40px;
 	border-bottom: 1px solid $border-color;
@@ -156,106 +160,12 @@ button[type="submit"] {
 	.carousel-control {
 		background-image: none;
 		top: 40%;
+		opacity: 1;
 		i {
 			font-size: 60px;
-			color: $border-color;
+			color: #fff;
 		}
 	}
-}
-
-#productCarousel {
-	.carousel-inner {
-		width: 100%;
-		overflow: hidden;
-		height: 520px;
-		position: relative;
-	}
-	.carousel-control {
-		background-image: none;
-		top: 40%;
-		i {
-			font-size: 60px;
-			color: $border-color;
-		}
-	}
-}
-
-#recomandationCarousel {
-	.carousel-inner {
-		width: 100%;
-		overflow: hidden;
-		height: 350px;
-		position: relative;
-	}
-	.carousel-control {
-		background-image: none;
-		top: 30%;
-		i {
-			font-size: 60px;
-			color: $border-color;
-		}
-	}
-}
-
-.carousel-indicators li {
-	border: 2px solid $text-color;
-}
-
-.carousel-indicators .active {
-	background-color: $text-color;
-}
-
-.properties-list {
-	list-style-image: url(images/list-bullet.png);
-	margin-bottom: 0;
-	padding: 0;
-
-}
-
-.gray-link {
-	color: $text-gray;
-	&:hover {
-	text-decoration: none;
-	}
-}
-
-.colored-box {
-	width: 40px;
-	height: 40px;
-	display: inline-block;
-	padding-bottom: 5px;
-}
-
-.blue {
-	background-color: $text-color;
-}
-
-.white {
-	background-color: #fff;
-	border: 2px solid $text-color;
-}
-
-.black {
-	background-color: #000;
-}
-
-.product-colors > ul, .product-measures > ul {
-	list-style: none;
-	padding: 0;
-	li {
-		display: inline-block;
-	}
-}
-
-.active-color {
-	border-bottom: 2px solid $text-color;
-}
-
-.measure-box {
-	padding: 9px 13px;
-	border: 2px solid $text-color;
-	font-weight: 600;
-	text-align: center;
 }
 
 .text-on-bottom {
@@ -281,4 +191,9 @@ button[type="submit"] {
 .intro {
 	max-height: 500px;
 	overflow: hidden;
+}
+
+.img-thumbnail {
+	border-radius: 0px;
+	padding: 0px;
 }
