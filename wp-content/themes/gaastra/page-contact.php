@@ -59,7 +59,7 @@
 		                        </div>
 		                        <div class="col-lg-4"><a href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-5.jpg" rel="lightbox[roadtrip]"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-5.jpg" class="img-responsive"></a>
 		                        </div>
-		                        <div class="col-lg-4"><a href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-map.png" rel="lightbox[roadtrip]"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-map.png" class="img-responsive"></a>
+		                        <div class="col-lg-4"><a href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/map.png" rel="lightbox[roadtrip]"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/map.png" class="img-responsive"></a>
 		                        </div>
 		                    </div>
 		                </div>
