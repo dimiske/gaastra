@@ -43,43 +43,48 @@ p {
 }
 
 /* line 40, style2.scss */
+.padding-extra-small {
+  padding: 0 0 10px 0;
+}
+
+/* line 44, style2.scss */
 figure {
   margin-bottom: 10px;
 }
 
-/* line 44, style2.scss */
+/* line 48, style2.scss */
 .aria-section {
   padding-bottom: 40px;
   border-bottom: 1px solid #b8bec9;
 }
 
-/* line 49, style2.scss */
+/* line 53, style2.scss */
 .smaller-width {
   max-width: 600px;
 }
 
-/* line 53, style2.scss */
+/* line 57, style2.scss */
 .smaller-text {
   font-size: 16px;
   font-weight: 400;
 }
 
-/* line 58, style2.scss */
+/* line 62, style2.scss */
 .timeline-container {
   background-image: url(images/despre/despre-pattern.jpg);
   padding-bottom: 20px;
 }
-/* line 61, style2.scss */
+/* line 65, style2.scss */
 .timeline-container .padding-small {
   margin-right: 40px;
 }
-/* line 64, style2.scss */
+/* line 68, style2.scss */
 .timeline-container .years {
   font-family: Lora, serif;
   font-size: 30px;
   margin: 0 auto;
 }
-/* line 69, style2.scss */
+/* line 73, style2.scss */
 .timeline-container .despre-thumbnails {
   max-width: 326px;
   max-height: 218px;
@@ -88,20 +93,20 @@ figure {
   margin-bottom: 20px;
 }
 
-/* line 78, style2.scss */
+/* line 82, style2.scss */
 .module {
   margin-bottom: 20px;
 }
-/* line 80, style2.scss */
+/* line 84, style2.scss */
 .module h3 {
   padding-bottom: 40px;
 }
-/* line 83, style2.scss */
+/* line 87, style2.scss */
 .module .circle {
   position: relative;
   margin-bottom: 20px;
 }
-/* line 86, style2.scss */
+/* line 90, style2.scss */
 .module .circle img {
   width: 190px;
   height: 190px;
@@ -109,7 +114,7 @@ figure {
   display: block;
   margin: 0 auto;
 }
-/* line 93, style2.scss */
+/* line 97, style2.scss */
 .module .circle .big-number {
   font-family: Lora, serif;
   font-size: 72px;
@@ -120,7 +125,7 @@ figure {
   width: 100%;
 }
 
-/* line 105, style2.scss */
+/* line 109, style2.scss */
 .form-input {
   display: block;
   width: 100%;
@@ -133,16 +138,16 @@ figure {
   border: 1px solid #b8bec9;
   border-radius: 0;
 }
-/* line 116, style2.scss */
+/* line 120, style2.scss */
 .form-input:focus {
   outline: none;
 }
-/* line 119, style2.scss */
+/* line 123, style2.scss */
 .form-input textarea {
   height: 200px;
 }
 
-/* line 124, style2.scss */
+/* line 128, style2.scss */
 .custom-button, .banner-item a, #despre a, .button-link {
   background-color: #ffffff;
   border: 1px solid #14284b;
@@ -151,87 +156,90 @@ figure {
   font-weight: 400;
   transition: all .3s ease;
 }
-/* line 131, style2.scss */
+/* line 135, style2.scss */
 .custom-button:focus, .banner-item a:focus, #despre a:focus, .button-link:focus {
   outline: none;
 }
-/* line 134, style2.scss */
+/* line 138, style2.scss */
 .custom-button:hover, .banner-item a:hover, #despre a:hover, .button-link:hover {
   background-color: #14284b;
   color: #ffffff;
 }
 
-/* line 140, style2.scss */
+/* line 144, style2.scss */
 button[type="submit"] {
   margin-top: 20px;
 }
 
-/* line 144, style2.scss */
+/* line 148, style2.scss */
 .emphasized {
   font-weight: 500;
   color: #14284b;
 }
 
-/* line 149, style2.scss */
+/* line 153, style2.scss */
 .margin-top {
   margin-top: 20px;
 }
 
-/* line 154, style2.scss */
+/* line 158, style2.scss */
 #contactCarousel .carousel-inner {
   width: 100%;
   overflow: hidden;
   height: 230px;
   position: relative;
 }
-/* line 160, style2.scss */
+/* line 164, style2.scss */
 #contactCarousel .carousel-control {
   background-image: none;
   top: 40%;
   opacity: 1;
 }
-/* line 164, style2.scss */
+/* line 168, style2.scss */
 #contactCarousel .carousel-control i {
   font-size: 60px;
   color: #fff;
 }
 
-/* line 171, style2.scss */
+/* line 175, style2.scss */
 .text-on-bottom {
   display: flex;
   align-items: flex-end;
   min-height: 560px;
 }
 
-/* line 177, style2.scss */
+/* line 181, style2.scss */
 .text-under-image {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 @media screen and (max-width: 960px) {
-  /* line 182, style2.scss */
+  /* line 186, style2.scss */
   figure {
     margin-top: 20px;
   }
 
-  /* line 185, style2.scss */
+  /* line 189, style2.scss */
   .text-on-bottom {
     display: block;
     min-height: 50px;
   }
 }
-/* line 191, style2.scss */
+/* line 195, style2.scss */
 .intro {
   max-height: 500px;
   overflow: hidden;
 }
 
-/* line 196, style2.scss */
+/* line 200, style2.scss */
 .img-thumbnail {
   border-radius: 0px;
   padding: 0px;
 }
 
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
 /* line 16, style.scss */
 .menu-top {
   height: 77px;

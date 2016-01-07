@@ -9,7 +9,7 @@
 	<div class="row">
 		<div class="col-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 text-center smaller-width">
 			<h2 class="padding-medium">Funcţionalitatea întâlneşte designul</h2>
-			<p>GAASTRA este unul dintre liderii mondiali în materie de îmbrăcăminte de înaltă calitate, îmbinând perfect funcționalitatea cu moda. Concepută pentru bărbați, femei și copii, îmbrăcămintea GAASTRA urmărește liniile design-ului modern, păstrând la bază, prin materialele folosite și atenția la detaliu, elementele de utilitate.</p>
+			<p>Gaastra este unul dintre liderii mondiali în materie de îmbrăcăminte de înaltă calitate, îmbinând perfect funcționalitatea cu moda. Concepută pentru bărbați, femei și copii, îmbrăcămintea Gaastra urmărește liniile design-ului modern, păstrând la bază, prin materialele folosite și atenția la detaliu, elementele de utilitate.</p>
 		</div>
 	</div>
 	<div class="row">

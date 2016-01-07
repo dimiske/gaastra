@@ -37,6 +37,10 @@ p {
 	padding: 20px 0;
 }
 
+.padding-extra-small {
+	padding: 0 0 10px 0;
+}
+
 figure {
 	margin-bottom: 10px;
 }
@@ -175,7 +179,7 @@ button[type="submit"] {
 }
 
 .text-under-image {
-	margin-top: 20px;
+	margin-top: 30px;
 }
 
 @media screen and (max-width: 960px) {
@@ -197,3 +201,16 @@ button[type="submit"] {
 	border-radius: 0px;
 	padding: 0px;
 }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }

@@ -13,7 +13,7 @@
 			<p class="emphasized">Iulius Mall (parter)</p>
 			<p class="emphasized">Str. Al. Vaida Voievod nr. 53B</p>
 			<h3>Orar</h3>
-			<p class="emphasized">Luni - Duminică: 11:00 - 22:00</p>
+			<p class="emphasized">Luni - Duminică: 10:00 - 22:00</p>
 			<p class="emphasized"><i class="fa fa-envelope-o"></i> contact@gaastra.ro</p>
 			<p class="emphasized"><i class="fa fa-phone"></i> +40 364 880 099</i></p>
 		</div>
