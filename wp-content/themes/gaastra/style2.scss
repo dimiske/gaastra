@@ -201,3 +201,12 @@ button[type="submit"] {
 	border-radius: 0px;
 	padding: 0px;
 }
+
+.intro-lookbook-text {
+    width: 16%;
+    position: absolute;
+    top: 20%;
+    .italic {
+    	font-style: italic;
+    }
+}

@@ -237,6 +237,17 @@ button[type="submit"] {
   padding: 0px;
 }
 
+/* line 205, style2.scss */
+.intro-lookbook-text {
+  width: 16%;
+  position: absolute;
+  top: 20%;
+}
+/* line 209, style2.scss */
+.intro-lookbook-text .italic {
+  font-style: italic;
+}
+
 /* line 16, style.scss */
 .menu-top {
   height: 77px;
