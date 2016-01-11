@@ -213,38 +213,71 @@ button[type="submit"] {
   margin-top: 30px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 992px) {
   /* line 186, style2.scss */
-  figure {
-    margin-top: 20px;
+  .intro-lookbook-text {
+    display: none;
   }
 
   /* line 189, style2.scss */
-  .text-on-bottom {
+  .main-text-mobile {
     display: block;
+  }
+
+  /* line 192, style2.scss */
+  figure {
+    margin-bottom: 15px;
+  }
+
+  /* line 195, style2.scss */
+  .text-on-bottom {
     min-height: 50px;
   }
+
+  /* line 198, style2.scss */
+  .padding-small, .padding-extra-small {
+    padding: 0px;
+  }
+
+  /* line 201, style2.scss */
+  .centered-image {
+    max-width: 360px;
+    display: inline-block;
+  }
 }
-/* line 195, style2.scss */
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  /* line 208, style2.scss */
+  .text-on-bottom {
+    min-height: 465px;
+  }
+}
+@media screen and (min-width: 993px) {
+  /* line 214, style2.scss */
+  .main-text-mobile {
+    display: none;
+  }
+}
+/* line 219, style2.scss */
 .intro {
   max-height: 500px;
   overflow: hidden;
 }
 
-/* line 200, style2.scss */
+/* line 224, style2.scss */
 .img-thumbnail {
   border-radius: 0px;
   padding: 0px;
 }
 
-/* line 205, style2.scss */
+/* line 229, style2.scss */
 .intro-lookbook-text {
   width: 16%;
   position: absolute;
   top: 20%;
 }
-/* line 209, style2.scss */
-.intro-lookbook-text .italic {
+
+/* line 235, style2.scss */
+.italic {
   font-style: italic;
 }
 

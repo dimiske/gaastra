@@ -182,13 +182,37 @@ button[type="submit"] {
 	margin-top: 30px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 992px) {
+	.intro-lookbook-text {
+		display: none;
+	}
+	.main-text-mobile {
+		display: block;
+	}
 	figure {
-		margin-top: 20px;
+		margin-bottom: 15px;
 	}
 	.text-on-bottom {
-		display: block;
 		min-height: 50px;
+	}
+	.padding-small, .padding-extra-small {
+		padding: 0px;
+	}
+	.centered-image {
+		max-width: 360px;
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+	.text-on-bottom {
+		min-height: 465px;
+	}
+}
+
+@media screen and (min-width: 993px) {
+	.main-text-mobile {
+		display: none;
 	}
 }
 
@@ -206,7 +230,9 @@ button[type="submit"] {
     width: 16%;
     position: absolute;
     top: 20%;
-    .italic {
-    	font-style: italic;
-    }
 }
+
+.italic {
+    font-style: italic;
+}
+
