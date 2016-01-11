@@ -4,7 +4,7 @@
 
 <div class="row padding-extra-small">
 	<div class="intro col-sm-12 col-md-12 col-lg-12">
-		<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/lookbook/lookbook-top-image.jpg" class="img-responsive"/>
+		<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/lookbook/lookbook-top-image-1.jpg" class="img-responsive"/>
 		<div class="container">
 			<div class="intro-lookbook-text banner-item">
 			    <h3 class="italic">Colecția de iarnă 2015</h3>
@@ -17,7 +17,7 @@
 	<div class="row padding-small"><!-- Row 1 -->
 		<div class="col-sm-12 col-md-7 col-lg-7">
 			<figure>
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/lookbook/lookbook-image-1.jpg" class="img-responsive">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/lookbook/lookbook-image-10.jpg" class="img-responsive">
 			</figure>
 		</div>
 		<div class="col-sm-12 col-md-5 col-lg-5">
@@ -39,7 +39,7 @@
 		</div>
 		<div class="col-sm-12 col-md-9 col-lg-9">
 			<figure>
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/lookbook/lookbook-image-3.jpg" class="img-responsive">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/lookbook/lookbook-image-14.jpg" class="img-responsive">
 			</figure>
 		</div>
 	</div>
@@ -64,7 +64,7 @@
 
 <div class="row"><!-- Row 4 -->
 	<div class="col-sm-12 col-md-12 col-lg-12 padding-extra-small">
-		<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/lookbook/lookbook-image-6.jpg" class="img-responsive"/>
+		<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/lookbook/lookbook-image-big.jpg" class="img-responsive"/>
 	</div>
 </div>
 
@@ -88,12 +88,12 @@
 	<div class="row"><!-- Row 3 -->
 		<div class="col-sm-12 col-md-4 col-lg-4">
 			<figure>
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/lookbook/lookbook-image-9.jpg" class="img-responsive">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/lookbook/lookbook-image-15.jpg" class="img-responsive">
 			</figure>
 		</div>
 		<div class="col-sm-12 col-md-8 col-lg-8">
 			<figure>
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/lookbook/lookbook-image-10.jpg" class="img-responsive">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/lookbook/lookbook-image-16.jpg" class="img-responsive">
 			</figure>
 		</div>
 	</div>
