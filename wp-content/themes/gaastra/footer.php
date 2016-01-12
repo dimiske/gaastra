@@ -47,7 +47,7 @@
     </script>
     <script>
     $jQuery(document).ready(function() {
-    $jQuery('#contactCarousel').carousel({
+    $jQuery('.carousel.slide').carousel({
         interval: false,
         pause: true
     })

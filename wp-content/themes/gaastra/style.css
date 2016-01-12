@@ -183,209 +183,178 @@ button[type="submit"] {
 }
 
 /* line 158, style2.scss */
-#contactCarousel .carousel-inner {
+#contactCarousel1 .carousel-inner, #contactCarousel2 .carousel-inner, #contactCarousel3 .carousel-inner {
   width: 100%;
   overflow: hidden;
-  height: 230px;
   position: relative;
 }
-/* line 164, style2.scss */
-#contactCarousel .carousel-control {
+/* line 163, style2.scss */
+#contactCarousel1 .carousel-control, #contactCarousel2 .carousel-control, #contactCarousel3 .carousel-control {
   background-image: none;
   top: 40%;
   opacity: 1;
 }
-/* line 168, style2.scss */
-#contactCarousel .carousel-control i {
+/* line 167, style2.scss */
+#contactCarousel1 .carousel-control i, #contactCarousel2 .carousel-control i, #contactCarousel3 .carousel-control i {
   font-size: 60px;
   color: #fff;
 }
 
-/* line 175, style2.scss */
+/* line 174, style2.scss */
 .text-on-bottom {
   display: flex;
   align-items: flex-end;
   min-height: 560px;
 }
 
-/* line 181, style2.scss */
+/* line 180, style2.scss */
 .text-under-image {
   margin-top: 30px;
 }
 
 @media screen and (max-width: 992px) {
-  /* line 186, style2.scss */
+  /* line 185, style2.scss */
   .intro-lookbook-text {
     display: none;
   }
 
-  /* line 189, style2.scss */
+  /* line 188, style2.scss */
   .main-text-mobile {
     display: block;
   }
 
-  /* line 192, style2.scss */
+  /* line 191, style2.scss */
   figure {
     margin-bottom: 15px;
   }
 
-  /* line 195, style2.scss */
+  /* line 194, style2.scss */
   .text-on-bottom {
     min-height: 50px;
   }
 
-  /* line 198, style2.scss */
+  /* line 197, style2.scss */
   .padding-small, .padding-extra-small {
     padding: 0px;
   }
 
-  /* line 201, style2.scss */
+  /* line 200, style2.scss */
   .centered-image {
     max-width: 360px;
     display: inline-block;
   }
 }
 @media screen and (max-width: 1199px) and (min-width: 992px) {
-  /* line 208, style2.scss */
+  /* line 207, style2.scss */
   .text-on-bottom {
     min-height: 465px;
   }
 }
-/* line 213, style2.scss */
+/* line 212, style2.scss */
 .intro {
   max-height: 500px;
   overflow: hidden;
 }
 
-/* line 218, style2.scss */
+/* line 217, style2.scss */
 .img-thumbnail {
   border-radius: 0px;
   padding: 0px;
 }
 
-/* line 223, style2.scss */
+/* line 222, style2.scss */
 .intro-lookbook-text {
   width: 16%;
   position: absolute;
   top: 20%;
 }
 
-/* line 229, style2.scss */
+/* line 228, style2.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 233, style2.scss */
+/* line 232, style2.scss */
 .footer-gaastra {
   margin-top: 30px;
 }
 
 /* Media queries  for large devices - Desktops */
 @media screen and (max-width: 1200px) {
-  /* line 239, style2.scss */
+  /* line 238, style2.scss */
   .text-alignment {
     text-align: left;
   }
 }
 /* Media queries  for medium devices - Desktops */
 @media screen and (max-width: 992px) {
-  /* line 246, style2.scss */
+  /* line 245, style2.scss */
   .text-margin-bottom {
     margin-bottom: 15px;
   }
 
-  /* line 249, style2.scss */
+  /* line 248, style2.scss */
   .main-text-mobile {
     display: block;
   }
 
-  /* line 252, style2.scss */
+  /* line 251, style2.scss */
   .intro-lookbok-text {
     display: none;
   }
 
-  /* line 255, style2.scss */
+  /* line 254, style2.scss */
   .padding-top {
     padding-top: 40px;
   }
 
-  /* line 258, style2.scss */
+  /* line 257, style2.scss */
   .padding-top-small {
     padding-top: 10px;
   }
 
-  /* line 261, style2.scss */
+  /* line 260, style2.scss */
   .centered-image {
     width: 280px;
-  }
-
-  /* line 264, style2.scss */
-  #contactCarousel .carousel-control {
-    top: 30%;
   }
 }
 /* Media queries  for small devices - Tablets */
 /* Media queries  for small devices - Phones */
 @media screen and (max-width: 768px) {
-  /* line 276, style2.scss */
+  /* line 272, style2.scss */
   .aria-section > div > p {
     margin-bottom: 30px;
   }
 
-  /* line 279, style2.scss */
+  /* line 275, style2.scss */
   .timeline-images {
     display: none;
   }
 
-  /* line 282, style2.scss */
+  /* line 278, style2.scss */
   .padding-top {
     padding-top: 0px;
   }
 
-  /* line 285, style2.scss */
+  /* line 281, style2.scss */
   #contactCarousel .carousel-control {
     top: 44%;
   }
-  /* line 287, style2.scss */
+  /* line 283, style2.scss */
   #contactCarousel .carousel-control i {
     font-size: 48px;
   }
 
-  /* line 291, style2.scss */
-  #contactcarousel .carousel {
-    height: 430px;
-  }
-
-  /* line 294, style2.scss */
+  /* line 287, style2.scss */
   .text-alignment {
     text-align: center;
   }
 }
-@media screen and (max-width: 480px) {
-  /* line 299, style2.scss */
-  #contactcarousel .carousel {
-    height: 240px;
-    width: 360px;
-  }
-}
 /* Media queries  for small devices - Phones */
 @media screen and (max-width: 360px) {
-  /* line 308, style2.scss */
+  /* line 294, style2.scss */
   .centered-image {
     width: 300px;
-  }
-
-  /* line 311, style2.scss */
-  #contactcarousel .carousel {
-    height: 159px;
-    width: 240px;
-  }
-}
-@media screen and (max-width: 320px) {
-  /* line 318, style2.scss */
-  #contactcarousel .carousel {
-    height: 133px;
-    width: 200px;
   }
 }
 /* line 16, style.scss */

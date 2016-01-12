@@ -154,11 +154,10 @@ button[type="submit"] {
 	margin-top: 20px;
 }
 
-#contactCarousel {
+#contactCarousel1, #contactCarousel2, #contactCarousel3 {
 	.carousel-inner {
 		width: 100%;
 		overflow: hidden;
-		height: 230px;
 		position: relative;
 	}
 	.carousel-control {
@@ -261,9 +260,6 @@ button[type="submit"] {
 	.centered-image {
 		width: 280px;
 	}
-	#contactCarousel .carousel-control {
-		top: 30%;
-	}
 }
 
 /* Media queries  for small devices - Tablets */
@@ -288,35 +284,16 @@ button[type="submit"] {
 			font-size: 48px;
 		}
 	}
-	#contactcarousel .carousel {
-		height: 430px;
-	}
 	.text-alignment {
 		text-align: center;
 	}
 }
-@media screen and (max-width: 480px) {
-	#contactcarousel .carousel {
-		height: 240px;
-		width: 360px;
-	}
-}
-
 
 /* Media queries  for small devices - Phones */
 @media screen and (max-width: 360px) {
 	.centered-image {
 		width: 300px;
 	}
-	#contactcarousel .carousel{
-		height: 159px;
-		width: 240px;
-	}
 }
 
-@media screen and (max-width: 320px) {
-	#contactcarousel .carousel {
-		height: 133px;
-		width: 200px;
-	}
-}
+
