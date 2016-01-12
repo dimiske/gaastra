@@ -243,32 +243,140 @@ button[type="submit"] {
     min-height: 465px;
   }
 }
-@media screen and (min-width: 993px) {
-  /* line 214, style2.scss */
-  .main-text-mobile {
-    display: none;
-  }
-}
-/* line 219, style2.scss */
+/* line 213, style2.scss */
 .intro {
   max-height: 500px;
   overflow: hidden;
 }
 
-/* line 224, style2.scss */
+/* line 218, style2.scss */
 .img-thumbnail {
   border-radius: 0px;
   padding: 0px;
 }
 
-/* line 229, style2.scss */
+/* line 223, style2.scss */
 .intro-lookbook-text {
   width: 16%;
   position: absolute;
   top: 20%;
 }
 
-/* line 235, style2.scss */
+/* line 229, style2.scss */
 .italic {
   font-style: italic;
+}
+
+/* line 233, style2.scss */
+.footer-gaastra {
+  margin-top: 30px;
+}
+
+/* Media queries  for large devices - Desktops */
+@media screen and (max-width: 1200px) {
+  /* line 239, style2.scss */
+  .text-alignment {
+    text-align: left;
+  }
+}
+/* Media queries  for medium devices - Desktops */
+@media screen and (max-width: 992px) {
+  /* line 246, style2.scss */
+  .text-margin-bottom {
+    margin-bottom: 15px;
+  }
+
+  /* line 249, style2.scss */
+  .main-text-mobile {
+    display: block;
+  }
+
+  /* line 252, style2.scss */
+  .intro-lookbok-text {
+    display: none;
+  }
+
+  /* line 255, style2.scss */
+  .padding-top {
+    padding-top: 40px;
+  }
+
+  /* line 258, style2.scss */
+  .padding-top-small {
+    padding-top: 10px;
+  }
+
+  /* line 261, style2.scss */
+  .centered-image {
+    width: 280px;
+  }
+
+  /* line 264, style2.scss */
+  #contactCarousel .carousel-control {
+    top: 30%;
+  }
+}
+/* Media queries  for small devices - Tablets */
+/* Media queries  for small devices - Phones */
+@media screen and (max-width: 768px) {
+  /* line 276, style2.scss */
+  .aria-section > div > p {
+    margin-bottom: 30px;
+  }
+
+  /* line 279, style2.scss */
+  .timeline-images {
+    display: none;
+  }
+
+  /* line 282, style2.scss */
+  .padding-top {
+    padding-top: 0px;
+  }
+
+  /* line 285, style2.scss */
+  #contactCarousel .carousel-control {
+    top: 44%;
+  }
+  /* line 287, style2.scss */
+  #contactCarousel .carousel-control i {
+    font-size: 48px;
+  }
+
+  /* line 291, style2.scss */
+  #contactcarousel .carousel {
+    height: 430px;
+  }
+
+  /* line 294, style2.scss */
+  .text-alignment {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 299, style2.scss */
+  #contactcarousel .carousel {
+    height: 240px;
+    width: 360px;
+  }
+}
+/* Media queries  for small devices - Phones */
+@media screen and (max-width: 360px) {
+  /* line 308, style2.scss */
+  .centered-image {
+    width: 300px;
+  }
+
+  /* line 311, style2.scss */
+  #contactcarousel .carousel {
+    height: 159px;
+    width: 240px;
+  }
+}
+@media screen and (max-width: 320px) {
+  /* line 318, style2.scss */
+  #contactcarousel .carousel {
+    height: 133px;
+    width: 200px;
+  }
 }

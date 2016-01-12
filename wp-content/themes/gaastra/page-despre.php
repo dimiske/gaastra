@@ -1,13 +1,12 @@
-
 <?php get_header(); ?>
 <div class="row">
-	<div class="col-sm-12 col-md-12 col-lg-12">
+	<div class="intro col-lg-12">
 		<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-banner.jpg" class="img-responsive"/>
 	</div>
 </div>
 <div class="container">
 	<div class="row">
-		<div class="col-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 text-center smaller-width">
+		<div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 text-center smaller-width">
 			<h2 class="padding-medium">Funcţionalitatea întâlneşte designul</h2>
 			<p>Gaastra este unul dintre liderii mondiali în materie de îmbrăcăminte de înaltă calitate, îmbinând perfect funcționalitatea cu moda. Concepută pentru bărbați, femei și copii, îmbrăcămintea Gaastra urmărește liniile design-ului modern, păstrând la bază, prin materialele folosite și atenția la detaliu, elementele de utilitate.</p>
 		</div>
@@ -48,25 +47,25 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+		<div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
 			<figure>
 				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-image-4.jpg" class="img-responsive">
 			</figure>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 text-center smaller-width">
-			<p>Istoria Gaastra a început în 1897, când Douwe Gaastra a pus bazele companiei sale de navigaţie în Seek, Olanda. Ambiţia lui a fost să facă navigaţia mai rapidă, competitivă şi eficientă. La scurt timp, Gaastra a devenit un nume comun în lumea globală de navigaţie.</p>
+		<div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 text-center smaller-width">
+			<p class="text-margin-bottom">Istoria Gaastra a început în 1897, când Douwe Gaastra a pus bazele companiei sale de navigaţie în Seek, Olanda. Ambiţia lui a fost să facă navigaţia mai rapidă, competitivă şi eficientă. La scurt timp, Gaastra a devenit un nume comun în lumea globală de navigaţie.</p>
 		</div>
 	</div>
 	<div class="row padding-small">
-		<div class="col-sm-12 col-md-4 col-md-offset-2 col-lg-4 coll-lg-offset-2 text-center">
+		<div class="col-xs-12 col-sm-4 col-sm-offset-2 col-md-4 col-md-offset-2 col-lg-4 coll-lg-offset-2 text-center">
 			<figure>
 				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-image-5.jpg" class="img-responsive">
 			</figure>
 		</div>
-		<div class="col-sm-12 col-md-3 col-lg-3 text-center">
-			<p>Este o linie subţire între frică şi pasiune. Douwe Gaastra şi-a pierdut inima printre valuri, dedicându-se creeării celui mai bun echipament de navigaţie. A ştiut că o confruntare cu marea este despre respect şi a fost copleşit de dragoste pentru apele măreţe. Chiar şi în această zi noi respectăm, iubim şi urmărim moştenirea lăsată de Douwe.</p>
+		<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-center">
+			<p class="text-margin-bottom">Este o linie subţire între frică şi pasiune. Douwe Gaastra şi-a pierdut inima printre valuri, dedicându-se creeării celui mai bun echipament de navigaţie. A ştiut că o confruntare cu marea este despre respect şi a fost copleşit de dragoste pentru apele măreţe. Chiar şi în această zi noi respectăm, iubim şi urmărim moştenirea lăsată de Douwe.</p>
 		</div>
 	</div>
 </div>
@@ -119,7 +118,7 @@
 					<p>Gaastra îşi deschide uşile primului magazin din România, în Cluj-Napoca.</p>
 				</div>
 			</div>
-			<div class="col-sm-12 col-md-4 col-lg-4">
+			<div class="col-sm-12 col-md-4 col-lg-4 timeline-images">
 				<figure>
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-image-6.jpg" class="img-responsive">
 				</figure>

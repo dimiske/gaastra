@@ -19,7 +19,7 @@ $gaastra-blue: #14284b;
     background: white;
     z-index: 11000;
     width: 100%;
-    border-bottom: 1px solid #b8bec9;
+    border-bottom: 1px solid $border-color;
 }
 
 .menu-spacer{
@@ -45,8 +45,22 @@ h3, h3 a {
     font-size: 24px;
     text-decoration: none;
 }
+h4, h4 a {
+    font-family: $font-sans;
+    color: $text-color;
+    font-size: 18px;
+    text-decoration: none;
+}
 
-h1 a:hover, h2 a:hover, h3 a:hover{
+a{
+    color: $gaastra-blue;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+a:hover{
     text-decoration: none;
 }
 
@@ -57,7 +71,7 @@ h1 a:hover, h2 a:hover, h3 a:hover{
     overflow: hidden;
     background: #fff;
     width: 100%;
-    border-bottom: 1px solid #b8bec9;
+    border-bottom: 1px solid $border-color;
 }
 
 header {
@@ -88,14 +102,15 @@ header {
         font-family: $font-serif;
         color: $text-color;
     }
-    a{
+    a, .button-link{
         @extend .custom-button;
         background: none;
         text-decoration: none;
         font-family: $font-sans;
         color: $text-color;
         font-size: 16px;
-        padding: 10px 36px;
+        line-height: 35px;
+        display: inline-block;
     }
     h2{
         font-size: 36px;
@@ -118,7 +133,20 @@ header {
         font-family: $font-sans;
         color: $text-color;
         font-size: 16px;
-        padding: 10px 36px;
+        line-height: 35px;
+        display: inline-block;
+}
+
+.lookbook{
+    margin-bottom: 20px;
+}
+
+.lookbook h2{
+    padding-top: 0;
+}
+
+.lookbook-img{
+    padding-bottom: 20px;
 }
 
 .site-header {
@@ -127,28 +155,61 @@ header {
 
 article{
     .text-despre{
-        padding-top: 1.5rem;
-        line-height: 1.5rem;
+        padding-top: 0;
+        line-height: 3rem;
+        p{
+            padding-bottom: 3rem;
+        }
     }
     h2{
-        padding: 1.5rem 0 1.5rem;
+        margin: 0;
+        padding: 2rem 0 1.8rem 1.5rem;
     } 
     position: relative;
 }
 
+@media (min-width: 1200px){
+    article .text-despre{
+        padding-top: 50px;
+    }
+}
+
+article{
+    text-align: center;
+}
+
 article#despre div{
-    padding-bottom: 1rem;
+    padding-bottom: 0.8rem;
 }
 
 .intro-text {
-    h2, h3, p{
+    h2, h3, h4, p{
         padding-bottom: 1.2rem;
     }
-    width: 40%;
-    padding-top: 5%;
+    width: 100%;
+    padding-top: 0;
     position: absolute;
-    top: 20%;
-    width: 37%;
+    top: 10%;
+    left: 0;
+}
+
+.main-banner .intro-text{
+    display: none;
+}
+
+.main-text-mobile{
+    display: block;
+}
+
+@media (min-width: 992px){
+    .main-banner .intro-text, .intro-lookbook-text {
+        display: block;
+    }
+
+    .main-text-mobile {
+        display: none;
+    }
+
 }
 
 .footer-gaastra {
@@ -173,7 +234,82 @@ article#despre div{
 }
 
 header nav a {
+    padding-top: 0;
+    padding-bottom: 0;
     color: $gaastra-blue;
+}
+
+.nav li a{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: $gaastra-blue;
+}
+
+.container>.navbar-header{
+    /*margin-right: 0;*/
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 15px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    font-size: 30px;
+    color: $gaastra-blue;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background: none;
+}
+
+[aria-expanded="true"]{
+    /*padding: 0;*/
+}
+
+[aria-expanded="true"] ul{
+    margin: 0;
+}
+
+[aria-expanded="true"] li{
+    height: 50px;
+    background: white;
+    border-bottom: 1px solid $border-color;
+}
+
+[aria-expanded="true"] li a{
+    line-height: 50px;
+}
+
+[aria-expanded="false"] ul{
+    margin: 0;
+}
+
+[aria-expanded="false"] li{
+    height: 77px;
+    background: white;
+}
+
+[aria-expanded="false"] li a{
+    line-height: 77px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    border: none;
+    margin-bottom: 0;
+}
+
+.navbar-header{
+    height: 77px;
 }
 
 .site-header nav {
@@ -187,17 +323,8 @@ header nav a {
 }
 
 .blogpost-item{
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.blogpost-item.item-1{
-    border-bottom: 1px solid #b8bec9;
-}
-
-.blogpost-item.item-4{
-    border-top: 1px solid #b8bec9;
-    border-bottom: 1px solid #b8bec9;
+    /*padding-top: 30px;
+    padding-bottom: 30px;*/
 }
 
 footer {
@@ -211,4 +338,311 @@ footer {
         font-weight: bold;
         font-size: 16px;
     }
+}
+
+#overlay{
+    z-index: 20000;
+}
+#lightbox{
+    z-index: 20010;
+}
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.intro, .navbar .container, .despre > div{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+
+.banner-item.contact p{
+    text-align: center;
+    font-size: 16px;
+    font-family: $font-sans;
+}
+.banner-item.contact{
+    padding-bottom: 40px;
+}
+.footer-gaastra{
+    color: white;
+}
+.footer-1, .footer-2, .footer-3{
+    padding-top: 40px;
+}
+.footer-1 span{
+    padding-right: 35px;
+}
+.footer-menu a:active{
+    text-decoration: none;
+}
+.footer-menu{
+    padding-top: 40px;
+}
+.footer-menu a, .footer-3 a{
+    color: white;
+}
+.foto-gallery{
+    padding-left: 0;
+    padding-right: 0;
+}
+.footer-2{
+    padding-right: 160px;
+}
+.footer-2 div, .footer-3 div{
+    padding-bottom: 20px;
+}
+.custom-button-footer{
+    background-color: white;
+    border: 1px solid #14284b;
+    padding: 0 36px;
+    height: 40px;
+    font-weight: 400;
+    transition: all .3s ease;
+    color: #14284b;
+}
+.custom-button-footer:focus {
+    outline: none;
+}
+.custom-button-footer:hover {
+    background-color: #b8bec9;
+}
+.footer-gaastra {
+    background: #14284b;
+}
+.footer-3 .copyright{
+    text-align: right;
+}
+.footer-3 div.logos{
+    padding-bottom: 40px;
+}
+.footer-3 .fb{
+    float: left;
+    width: 33%;
+    text-align: left;
+}
+.footer-3  .pint{
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+.footer-3  .insta{
+    float: right;
+    width: 32%;
+    text-align: right;
+}
+.generic-page{
+    text-align: justify;
+    padding-bottom: 40px;
+}
+.generic-page p{
+    padding-bottom: 20px;
+}
+.gaastra-blog{
+    padding-top: 20px;
+
+    h1{
+        margin-bottom: 40px;
+    }
+    h3{
+        margin-top: 0;
+    } 
+    h3 a{
+        margin-top: 0;
+        font-family: $font-serif;
+        font-size: 24px;
+    }
+    .blogpost-item p{
+        padding-bottom: 20px;
+    }
+    .blogpost-item{
+        border: $border-color;
+        margin-bottom: 20px;
+    }
+    .blog-img{
+        padding-bottom: 20px;
+    }
+    .holder{
+        border: 1px solid $border-color;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blogpost-item .button-link{
+        margin-left: 15px;
+    }
+    .blogpost-item.item-1 .button-link,
+    .blogpost-item.item-4 .button-link{
+        float: right;
+        margin-right: 15px;
+    }
+    .blogpost-item{
+        padding: 0;
+    }
+    .blogpost-item.item-2 .holder{
+        margin-right: 10px;
+    }
+    .blogpost-item.item-3 .holder{
+        margin-left: 10px;
+    }
+    .blogpost-item.item-2 .blog-img,
+    .blogpost-item.item-3 .blog-img{
+        min-height: 220px;
+        overflow: hidden;
+    }
+    .blogpost-item.item-2 .blog-txt,
+    .blogpost-item.item-3 .blog-txt{
+        min-height: 290px;
+    }
+}
+
+button[type="submit"].search-icon{
+    margin-top: 0;
+}
+
+.sidebar_item{
+    padding-bottom: 40px;
+    text-align: center;
+}
+.most_viewed .holder{
+    border: 1px solid $border-color;
+    margin-bottom: 20px;
+}
+.blog_home{
+    /*.img-holder{
+        width: 350px;
+        height: 350px;
+    }*/
+    @media (min-width: 1200px){
+        .img-holder{
+            width: 350px;
+            height: 350px;
+        }
+    }
+    .holder{
+        margin-bottom: 20px;
+        border: 1px solid $border-color;
+    }
+    a{
+        display: block;
+        border: none;
+        background: none;
+        line-height: 1.5em;
+        padding: 10px;
+        height: 90px;
+        text-align: left;
+        
+        span{
+            color: $border-color;
+        }
+    }
+    
+}
+
+.blog_home p{
+        padding-bottom: 40px;
+    }
+.most_viewed h3{
+    text-align: left;
+}
+.page-numbers{
+    padding: 0 18px;
+}
+
+.sidebar_item .logos{
+    margin-bottom: 40px;
+    padding-top: 20px;
+}
+
+.gaastra-blog .entry_content{
+    text-align: left;
+}
+
+.gaastra-blog .entry_content p{
+    padding-bottom: 20px;
+}
+.gaastra-blog h1.entry_title{
+    margin: 0;
+    padding: 40px 15px 40px 0;
+}
+.gaastra_blog_sidebar{
+    text-align: center;
+    padding-top: 35px;
+    .gaastra_logo{
+        padding-bottom: 40px;
+    }
+    .tagcloud{
+        @extend h4;
+        font-weight: 500;
+        .tagcloud, .tagcloud a.utcw-tag{
+            font-weight: normal;
+            color: $border-color;
+        }
+    }
+}
+
+.gaastra_comments{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid $border-color;
+}
+.gaastra-blog .intro-image{
+    margin-bottom: 20px;
+}
+
+
+/* sticky footer */
+
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+	height: 100%;
+	margin: 0 auto -200px 0; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+	height: 200px; /* .push must be the same height as .footer */
+}
+
+/* end sticky footer */
+
+body{
+    background: $gaastra-blue;
+}
+
+.wrapper{
+    background: white;
+}
+
+.footer-gaastra .email-address{
+    color: $gaastra-blue;
+}
+
+
+.footer-gaastra .email-address::-webkit-input-placeholder{
+    color: $gaastra-blue;
+}
+
+.footer-gaastra .email-address:-moz-placeholder{
+    color: $gaastra-blue;
+}
+
+.footer-gaastra .email-address::-moz-placeholder{
+    color: $gaastra-blue;
+}
+
+.footer-gaastra .email-address:-ms-input-placeholder{
+    color: $gaastra-blue;
+}
+.generic-page h1.entry-title{
+    margin: 0;
+    padding: 40px 0;
+}
+.custom-button-footer{
+    font-weight: 500;
 }

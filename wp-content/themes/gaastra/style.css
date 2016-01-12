@@ -148,7 +148,7 @@ figure {
 }
 
 /* line 128, style2.scss */
-.custom-button, .banner-item a, #despre a, .button-link {
+.custom-button, .banner-item a, .banner-item .button-link, #despre a, .button-link {
   background-color: #ffffff;
   border: 1px solid #14284b;
   padding: 0 36px;
@@ -157,11 +157,11 @@ figure {
   transition: all .3s ease;
 }
 /* line 135, style2.scss */
-.custom-button:focus, .banner-item a:focus, #despre a:focus, .button-link:focus {
+.custom-button:focus, .banner-item a:focus, .banner-item .button-link:focus, #despre a:focus, .button-link:focus {
   outline: none;
 }
 /* line 138, style2.scss */
-.custom-button:hover, .banner-item a:hover, #despre a:hover, .button-link:hover {
+.custom-button:hover, .banner-item a:hover, .banner-item .button-link:hover, #despre a:hover, .button-link:hover {
   background-color: #14284b;
   color: #ffffff;
 }
@@ -251,36 +251,143 @@ button[type="submit"] {
     min-height: 465px;
   }
 }
-@media screen and (min-width: 993px) {
-  /* line 214, style2.scss */
-  .main-text-mobile {
-    display: none;
-  }
-}
-/* line 219, style2.scss */
+/* line 213, style2.scss */
 .intro {
   max-height: 500px;
   overflow: hidden;
 }
 
-/* line 224, style2.scss */
+/* line 218, style2.scss */
 .img-thumbnail {
   border-radius: 0px;
   padding: 0px;
 }
 
-/* line 229, style2.scss */
+/* line 223, style2.scss */
 .intro-lookbook-text {
   width: 16%;
   position: absolute;
   top: 20%;
 }
 
-/* line 235, style2.scss */
+/* line 229, style2.scss */
 .italic {
   font-style: italic;
 }
 
+/* line 233, style2.scss */
+.footer-gaastra {
+  margin-top: 30px;
+}
+
+/* Media queries  for large devices - Desktops */
+@media screen and (max-width: 1200px) {
+  /* line 239, style2.scss */
+  .text-alignment {
+    text-align: left;
+  }
+}
+/* Media queries  for medium devices - Desktops */
+@media screen and (max-width: 992px) {
+  /* line 246, style2.scss */
+  .text-margin-bottom {
+    margin-bottom: 15px;
+  }
+
+  /* line 249, style2.scss */
+  .main-text-mobile {
+    display: block;
+  }
+
+  /* line 252, style2.scss */
+  .intro-lookbok-text {
+    display: none;
+  }
+
+  /* line 255, style2.scss */
+  .padding-top {
+    padding-top: 40px;
+  }
+
+  /* line 258, style2.scss */
+  .padding-top-small {
+    padding-top: 10px;
+  }
+
+  /* line 261, style2.scss */
+  .centered-image {
+    width: 280px;
+  }
+
+  /* line 264, style2.scss */
+  #contactCarousel .carousel-control {
+    top: 30%;
+  }
+}
+/* Media queries  for small devices - Tablets */
+/* Media queries  for small devices - Phones */
+@media screen and (max-width: 768px) {
+  /* line 276, style2.scss */
+  .aria-section > div > p {
+    margin-bottom: 30px;
+  }
+
+  /* line 279, style2.scss */
+  .timeline-images {
+    display: none;
+  }
+
+  /* line 282, style2.scss */
+  .padding-top {
+    padding-top: 0px;
+  }
+
+  /* line 285, style2.scss */
+  #contactCarousel .carousel-control {
+    top: 44%;
+  }
+  /* line 287, style2.scss */
+  #contactCarousel .carousel-control i {
+    font-size: 48px;
+  }
+
+  /* line 291, style2.scss */
+  #contactcarousel .carousel {
+    height: 430px;
+  }
+
+  /* line 294, style2.scss */
+  .text-alignment {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 299, style2.scss */
+  #contactcarousel .carousel {
+    height: 240px;
+    width: 360px;
+  }
+}
+/* Media queries  for small devices - Phones */
+@media screen and (max-width: 360px) {
+  /* line 308, style2.scss */
+  .centered-image {
+    width: 300px;
+  }
+
+  /* line 311, style2.scss */
+  #contactcarousel .carousel {
+    height: 159px;
+    width: 240px;
+  }
+}
+@media screen and (max-width: 320px) {
+  /* line 318, style2.scss */
+  #contactcarousel .carousel {
+    height: 133px;
+    width: 200px;
+  }
+}
 /* line 16, style.scss */
 .menu-top {
   height: 77px;
@@ -320,12 +427,30 @@ h3, h3 a {
   text-decoration: none;
 }
 
-/* line 49, style.scss */
-h1 a:hover, h2 a:hover, h3 a:hover {
+/* line 48, style.scss */
+h4, .gaastra_blog_sidebar .tagcloud, h4 a, .gaastra_blog_sidebar .tagcloud a {
+  font-family: Roboto, sans-serif;
+  color: #14284b;
+  font-size: 18px;
   text-decoration: none;
 }
 
-/* line 53, style.scss */
+/* line 55, style.scss */
+a {
+  color: #14284b;
+}
+
+/* line 59, style.scss */
+p {
+  margin-bottom: 0;
+}
+
+/* line 63, style.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 67, style.scss */
 .header-container {
   height: 77px;
   position: fixed;
@@ -336,19 +461,19 @@ h1 a:hover, h2 a:hover, h3 a:hover {
   border-bottom: 1px solid #b8bec9;
 }
 
-/* line 63, style.scss */
+/* line 77, style.scss */
 header {
   /*height: 77px;*/
 }
-/* line 65, style.scss */
+/* line 79, style.scss */
 header .navbar {
   padding: 0;
 }
-/* line 68, style.scss */
+/* line 82, style.scss */
 header .navbar-brand {
   padding-top: 20px;
 }
-/* line 71, style.scss */
+/* line 85, style.scss */
 header .nav-item a {
   line-height: 77px;
   display: block;
@@ -357,7 +482,7 @@ header .nav-item a {
   font-size: 16px;
 }
 
-/* line 80, style.scss */
+/* line 94, style.scss */
 .banner-item {
   overflow: hidden;
   -webkit-background-size: cover;
@@ -365,152 +490,691 @@ header .nav-item a {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 87, style.scss */
-.banner-item h2, .banner-item h3, .banner-item h4, .banner-item p {
+/* line 101, style.scss */
+.banner-item h2, .banner-item h3, .banner-item h4, .banner-item .gaastra_blog_sidebar .tagcloud, .gaastra_blog_sidebar .banner-item .tagcloud, .banner-item p {
   font-family: Lora, serif;
   color: #14284b;
 }
-/* line 91, style.scss */
-.banner-item a {
+/* line 105, style.scss */
+.banner-item a, .banner-item .button-link {
   background: none;
   text-decoration: none;
   font-family: Roboto, sans-serif;
   color: #14284b;
   font-size: 16px;
-  padding: 10px 36px;
+  line-height: 35px;
+  display: inline-block;
 }
-/* line 100, style.scss */
+/* line 115, style.scss */
 .banner-item h2 {
   font-size: 36px;
 }
-/* line 103, style.scss */
+/* line 118, style.scss */
 .banner-item h3 {
   font-size: 30px;
 }
-/* line 106, style.scss */
+/* line 121, style.scss */
 .banner-item p {
   font-size: 24px;
 }
-/* line 109, style.scss */
+/* line 124, style.scss */
 .banner-item .item {
   margin: 0 auto;
 }
 
-/* line 114, style.scss */
+/* line 129, style.scss */
 #despre a, .button-link {
   background: none;
   text-decoration: none;
   font-family: Roboto, sans-serif;
   color: #14284b;
   font-size: 16px;
-  padding: 10px 36px;
+  line-height: 35px;
+  display: inline-block;
 }
 
-/* line 124, style.scss */
+/* line 140, style.scss */
+.lookbook {
+  margin-bottom: 20px;
+}
+
+/* line 144, style.scss */
+.lookbook h2 {
+  padding-top: 0;
+}
+
+/* line 148, style.scss */
+.lookbook-img {
+  padding-bottom: 20px;
+}
+
+/* line 152, style.scss */
 .site-header {
   background: #fff;
 }
 
-/* line 128, style.scss */
+/* line 156, style.scss */
 article {
   position: relative;
 }
-/* line 129, style.scss */
+/* line 157, style.scss */
 article .text-despre {
-  padding-top: 1.5rem;
-  line-height: 1.5rem;
+  padding-top: 0;
+  line-height: 3rem;
 }
-/* line 133, style.scss */
+/* line 160, style.scss */
+article .text-despre p {
+  padding-bottom: 3rem;
+}
+/* line 164, style.scss */
 article h2 {
-  padding: 1.5rem 0 1.5rem;
+  margin: 0;
+  padding: 2rem 0 1.8rem 1.5rem;
 }
 
-/* line 139, style.scss */
+@media (min-width: 1200px) {
+  /* line 172, style.scss */
+  article .text-despre {
+    padding-top: 50px;
+  }
+}
+/* line 177, style.scss */
+article {
+  text-align: center;
+}
+
+/* line 181, style.scss */
 article#despre div {
-  padding-bottom: 1rem;
+  padding-bottom: 0.8rem;
 }
 
-/* line 143, style.scss */
+/* line 185, style.scss */
 .intro-text {
-  width: 40%;
-  padding-top: 5%;
+  width: 100%;
+  padding-top: 0;
   position: absolute;
-  top: 20%;
-  width: 37%;
+  top: 10%;
+  left: 0;
 }
-/* line 144, style.scss */
-.intro-text h2, .intro-text h3, .intro-text p {
+/* line 186, style.scss */
+.intro-text h2, .intro-text h3, .intro-text h4, .intro-text .gaastra_blog_sidebar .tagcloud, .gaastra_blog_sidebar .intro-text .tagcloud, .intro-text p {
   padding-bottom: 1.2rem;
 }
 
-/* line 154, style.scss */
+/* line 196, style.scss */
+.main-banner .intro-text {
+  display: none;
+}
+
+/* line 200, style.scss */
+.main-text-mobile {
+  display: block;
+}
+
+@media (min-width: 992px) {
+  /* line 205, style.scss */
+  .main-banner .intro-text, .intro-lookbook-text {
+    display: block;
+  }
+
+  /* line 209, style.scss */
+  .main-text-mobile {
+    display: none;
+  }
+}
+/* line 215, style.scss */
 .footer-gaastra {
   background: #14284b;
   height: 200px;
 }
 
-/* line 159, style.scss */
+/* line 220, style.scss */
 #despre table td {
   vertical-align: middle;
   border: none;
 }
 
-/* line 164, style.scss */
+/* line 225, style.scss */
 #despre table td p {
   padding: 0 10% 5% 10%;
   text-align: center;
 }
 
-/* line 169, style.scss */
+/* line 230, style.scss */
 #despre table td a {
   color: #14284b;
   border: 1px solid #14284b;
   padding: 0.5em 1em;
 }
 
-/* line 175, style.scss */
+/* line 236, style.scss */
 header nav a {
+  padding-top: 0;
+  padding-bottom: 0;
   color: #14284b;
 }
 
-/* line 179, style.scss */
+/* line 242, style.scss */
+.nav li a {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 247, style.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #14284b;
+}
+
+/* line 251, style.scss */
+.container > .navbar-header {
+  /*margin-right: 0;*/
+}
+
+/* line 255, style.scss */
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 15px;
+  margin-right: 5px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  font-size: 30px;
+  color: #14284b;
+}
+
+/* line 269, style.scss */
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background: none;
+}
+
+/* line 273, style.scss */
+[aria-expanded="true"] {
+  /*padding: 0;*/
+}
+
+/* line 277, style.scss */
+[aria-expanded="true"] ul {
+  margin: 0;
+}
+
+/* line 281, style.scss */
+[aria-expanded="true"] li {
+  height: 50px;
+  background: white;
+  border-bottom: 1px solid #b8bec9;
+}
+
+/* line 287, style.scss */
+[aria-expanded="true"] li a {
+  line-height: 50px;
+}
+
+/* line 291, style.scss */
+[aria-expanded="false"] ul {
+  margin: 0;
+}
+
+/* line 295, style.scss */
+[aria-expanded="false"] li {
+  height: 77px;
+  background: white;
+}
+
+/* line 300, style.scss */
+[aria-expanded="false"] li a {
+  line-height: 77px;
+}
+
+/* line 304, style.scss */
+.navbar {
+  position: relative;
+  min-height: 50px;
+  border: none;
+  margin-bottom: 0;
+}
+
+/* line 311, style.scss */
+.navbar-header {
+  height: 77px;
+}
+
+/* line 315, style.scss */
 .site-header nav {
   height: 77px;
   background: #fff;
 }
 
-/* line 184, style.scss */
+/* line 320, style.scss */
 .site-header nav > div {
   max-width: 1280px;
   margin: 0 auto;
 }
 
-/* line 189, style.scss */
+/* line 325, style.scss */
 .blogpost-item {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  /*padding-top: 30px;
+  padding-bottom: 30px;*/
 }
 
-/* line 194, style.scss */
-.blogpost-item.item-1 {
-  border-bottom: 1px solid #b8bec9;
-}
-
-/* line 198, style.scss */
-.blogpost-item.item-4 {
-  border-top: 1px solid #b8bec9;
-  border-bottom: 1px solid #b8bec9;
-}
-
-/* line 204, style.scss */
+/* line 331, style.scss */
 footer .navbar, footer .navbar-brand {
   padding: 0;
 }
-/* line 207, style.scss */
+/* line 334, style.scss */
 footer .nav-item a {
   line-height: 77px;
   display: block;
   font-family: Roboto, sans-serif;
   font-weight: bold;
   font-size: 16px;
+}
+
+/* line 343, style.scss */
+#overlay {
+  z-index: 20000;
+}
+
+/* line 346, style.scss */
+#lightbox {
+  z-index: 20010;
+}
+
+/* line 350, style.scss */
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 355, style.scss */
+.intro, .navbar .container, .despre > div {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 363, style.scss */
+.banner-item.contact p {
+  text-align: center;
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+}
+
+/* line 368, style.scss */
+.banner-item.contact {
+  padding-bottom: 40px;
+}
+
+/* line 371, style.scss */
+.footer-gaastra {
+  color: white;
+}
+
+/* line 374, style.scss */
+.footer-1, .footer-2, .footer-3 {
+  padding-top: 40px;
+}
+
+/* line 377, style.scss */
+.footer-1 span {
+  padding-right: 35px;
+}
+
+/* line 380, style.scss */
+.footer-menu a:active {
+  text-decoration: none;
+}
+
+/* line 383, style.scss */
+.footer-menu {
+  padding-top: 40px;
+}
+
+/* line 386, style.scss */
+.footer-menu a, .footer-3 a {
+  color: white;
+}
+
+/* line 389, style.scss */
+.foto-gallery {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 393, style.scss */
+.footer-2 {
+  padding-right: 160px;
+}
+
+/* line 396, style.scss */
+.footer-2 div, .footer-3 div {
+  padding-bottom: 20px;
+}
+
+/* line 399, style.scss */
+.custom-button-footer {
+  background-color: white;
+  border: 1px solid #14284b;
+  padding: 0 36px;
+  height: 40px;
+  font-weight: 400;
+  transition: all .3s ease;
+  color: #14284b;
+}
+
+/* line 408, style.scss */
+.custom-button-footer:focus {
+  outline: none;
+}
+
+/* line 411, style.scss */
+.custom-button-footer:hover {
+  background-color: #b8bec9;
+}
+
+/* line 414, style.scss */
+.footer-gaastra {
+  background: #14284b;
+}
+
+/* line 417, style.scss */
+.footer-3 .copyright {
+  text-align: right;
+}
+
+/* line 420, style.scss */
+.footer-3 div.logos {
+  padding-bottom: 40px;
+}
+
+/* line 423, style.scss */
+.footer-3 .fb {
+  float: left;
+  width: 33%;
+  text-align: left;
+}
+
+/* line 428, style.scss */
+.footer-3 .pint {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+/* line 433, style.scss */
+.footer-3 .insta {
+  float: right;
+  width: 32%;
+  text-align: right;
+}
+
+/* line 438, style.scss */
+.generic-page {
+  text-align: justify;
+  padding-bottom: 40px;
+}
+
+/* line 442, style.scss */
+.generic-page p {
+  padding-bottom: 20px;
+}
+
+/* line 445, style.scss */
+.gaastra-blog {
+  padding-top: 20px;
+}
+/* line 448, style.scss */
+.gaastra-blog h1 {
+  margin-bottom: 40px;
+}
+/* line 451, style.scss */
+.gaastra-blog h3 {
+  margin-top: 0;
+}
+/* line 454, style.scss */
+.gaastra-blog h3 a {
+  margin-top: 0;
+  font-family: Lora, serif;
+  font-size: 24px;
+}
+/* line 459, style.scss */
+.gaastra-blog .blogpost-item p {
+  padding-bottom: 20px;
+}
+/* line 462, style.scss */
+.gaastra-blog .blogpost-item {
+  border: #b8bec9;
+  margin-bottom: 20px;
+}
+/* line 466, style.scss */
+.gaastra-blog .blog-img {
+  padding-bottom: 20px;
+}
+/* line 469, style.scss */
+.gaastra-blog .holder {
+  border: 1px solid #b8bec9;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* line 474, style.scss */
+.gaastra-blog .blogpost-item .button-link {
+  margin-left: 15px;
+}
+/* line 478, style.scss */
+.gaastra-blog .blogpost-item.item-1 .button-link,
+.gaastra-blog .blogpost-item.item-4 .button-link {
+  float: right;
+  margin-right: 15px;
+}
+/* line 482, style.scss */
+.gaastra-blog .blogpost-item {
+  padding: 0;
+}
+/* line 485, style.scss */
+.gaastra-blog .blogpost-item.item-2 .holder {
+  margin-right: 10px;
+}
+/* line 488, style.scss */
+.gaastra-blog .blogpost-item.item-3 .holder {
+  margin-left: 10px;
+}
+/* line 492, style.scss */
+.gaastra-blog .blogpost-item.item-2 .blog-img,
+.gaastra-blog .blogpost-item.item-3 .blog-img {
+  min-height: 220px;
+  overflow: hidden;
+}
+/* line 497, style.scss */
+.gaastra-blog .blogpost-item.item-2 .blog-txt,
+.gaastra-blog .blogpost-item.item-3 .blog-txt {
+  min-height: 290px;
+}
+
+/* line 502, style.scss */
+button[type="submit"].search-icon {
+  margin-top: 0;
+}
+
+/* line 506, style.scss */
+.sidebar_item {
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+/* line 510, style.scss */
+.most_viewed .holder {
+  border: 1px solid #b8bec9;
+  margin-bottom: 20px;
+}
+
+/* line 514, style.scss */
+.blog_home {
+  /*.img-holder{
+      width: 350px;
+      height: 350px;
+  }*/
+}
+@media (min-width: 1200px) {
+  /* line 520, style.scss */
+  .blog_home .img-holder {
+    width: 350px;
+    height: 350px;
+  }
+}
+/* line 525, style.scss */
+.blog_home .holder {
+  margin-bottom: 20px;
+  border: 1px solid #b8bec9;
+}
+/* line 529, style.scss */
+.blog_home a {
+  display: block;
+  border: none;
+  background: none;
+  line-height: 1.5em;
+  padding: 10px;
+  height: 90px;
+  text-align: left;
+}
+/* line 538, style.scss */
+.blog_home a span {
+  color: #b8bec9;
+}
+
+/* line 545, style.scss */
+.blog_home p {
+  padding-bottom: 40px;
+}
+
+/* line 548, style.scss */
+.most_viewed h3 {
+  text-align: left;
+}
+
+/* line 551, style.scss */
+.page-numbers {
+  padding: 0 18px;
+}
+
+/* line 555, style.scss */
+.sidebar_item .logos {
+  margin-bottom: 40px;
+  padding-top: 20px;
+}
+
+/* line 560, style.scss */
+.gaastra-blog .entry_content {
+  text-align: left;
+}
+
+/* line 564, style.scss */
+.gaastra-blog .entry_content p {
+  padding-bottom: 20px;
+}
+
+/* line 567, style.scss */
+.gaastra-blog h1.entry_title {
+  margin: 0;
+  padding: 40px 15px 40px 0;
+}
+
+/* line 571, style.scss */
+.gaastra_blog_sidebar {
+  text-align: center;
+  padding-top: 35px;
+}
+/* line 574, style.scss */
+.gaastra_blog_sidebar .gaastra_logo {
+  padding-bottom: 40px;
+}
+/* line 577, style.scss */
+.gaastra_blog_sidebar .tagcloud {
+  font-weight: 500;
+}
+/* line 580, style.scss */
+.gaastra_blog_sidebar .tagcloud .tagcloud, .gaastra_blog_sidebar .tagcloud .tagcloud a.utcw-tag {
+  font-weight: normal;
+  color: #b8bec9;
+}
+
+/* line 587, style.scss */
+.gaastra_comments {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-top: 1px solid #b8bec9;
+}
+
+/* line 592, style.scss */
+.gaastra-blog .intro-image {
+  margin-bottom: 20px;
+}
+
+/* sticky footer */
+/* line 599, style.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 602, style.scss */
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  /* This line and the next line are not necessary unless you need IE6 support */
+  height: 100%;
+  margin: 0 auto -200px 0;
+  /* the bottom margin is the negative value of the footer's height */
+}
+
+/* line 608, style.scss */
+.footer, .push {
+  height: 200px;
+  /* .push must be the same height as .footer */
+}
+
+/* end sticky footer */
+/* line 614, style.scss */
+body {
+  background: #14284b;
+}
+
+/* line 618, style.scss */
+.wrapper {
+  background: white;
+}
+
+/* line 622, style.scss */
+.footer-gaastra .email-address {
+  color: #14284b;
+}
+
+/* line 627, style.scss */
+.footer-gaastra .email-address::-webkit-input-placeholder {
+  color: #14284b;
+}
+
+/* line 631, style.scss */
+.footer-gaastra .email-address:-moz-placeholder {
+  color: #14284b;
+}
+
+/* line 635, style.scss */
+.footer-gaastra .email-address::-moz-placeholder {
+  color: #14284b;
+}
+
+/* line 639, style.scss */
+.footer-gaastra .email-address:-ms-input-placeholder {
+  color: #14284b;
+}
+
+/* line 642, style.scss */
+.generic-page h1.entry-title {
+  margin: 0;
+  padding: 40px 0;
+}
+
+/* line 646, style.scss */
+.custom-button-footer {
+  font-weight: 500;
 }

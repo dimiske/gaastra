@@ -210,12 +210,6 @@ button[type="submit"] {
 	}
 }
 
-@media screen and (min-width: 993px) {
-	.main-text-mobile {
-		display: none;
-	}
-}
-
 .intro {
 	max-height: 500px;
 	overflow: hidden;
@@ -236,3 +230,93 @@ button[type="submit"] {
     font-style: italic;
 }
 
+.footer-gaastra {
+	margin-top: 30px;
+}
+
+/* Media queries  for large devices - Desktops */
+@media screen and (max-width: 1200px) {
+	.text-alignment {
+		text-align: left;
+	}
+}
+
+/* Media queries  for medium devices - Desktops */
+@media screen and (max-width: 992px) {
+	.text-margin-bottom {
+		margin-bottom: 15px;
+	}
+	.main-text-mobile {
+		display: block;
+	}
+	.intro-lookbok-text {
+		display: none;
+	}
+	.padding-top {
+		padding-top: 40px;
+	}
+	.padding-top-small {
+		padding-top: 10px;
+	}
+	.centered-image {
+		width: 280px;
+	}
+	#contactCarousel .carousel-control {
+		top: 30%;
+	}
+}
+
+/* Media queries  for small devices - Tablets */
+@media screen and (min-width: 768px) {
+
+}
+
+/* Media queries  for small devices - Phones */
+@media screen and (max-width: 768px) {
+	.aria-section > div > p {
+		margin-bottom: 30px;
+	}
+	.timeline-images {
+		display: none;
+	}
+	.padding-top {
+		padding-top: 0px;
+	}
+	#contactCarousel .carousel-control {
+		top: 44%;
+		i {
+			font-size: 48px;
+		}
+	}
+	#contactcarousel .carousel {
+		height: 430px;
+	}
+	.text-alignment {
+		text-align: center;
+	}
+}
+@media screen and (max-width: 480px) {
+	#contactcarousel .carousel {
+		height: 240px;
+		width: 360px;
+	}
+}
+
+
+/* Media queries  for small devices - Phones */
+@media screen and (max-width: 360px) {
+	.centered-image {
+		width: 300px;
+	}
+	#contactcarousel .carousel{
+		height: 159px;
+		width: 240px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	#contactcarousel .carousel {
+		height: 133px;
+		width: 200px;
+	}
+}
