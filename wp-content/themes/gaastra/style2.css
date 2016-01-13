@@ -341,10 +341,20 @@ button[type="submit"] {
   .text-alignment {
     text-align: center;
   }
+
+  /* line 290, style2.scss */
+  .wpcf7 {
+    margin-top: 20px;
+  }
+
+  /* line 293, style2.scss */
+  .wpcf7-submit {
+    margin-bottom: 20px;
+  }
 }
 /* Media queries  for small devices - Phones */
 @media screen and (max-width: 360px) {
-  /* line 294, style2.scss */
+  /* line 300, style2.scss */
   .centered-image {
     width: 300px;
   }
