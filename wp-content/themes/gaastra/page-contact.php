@@ -22,7 +22,7 @@
 			</div>
 		</div>
 		<div class="col-sm-12 col-md-8 col-lg-8">
-			<div class="col-lg-12">
+			<div class="col-xs-12 col-sm-12 col-md-12">
                 <?php echo do_shortcode('[contact-form-7 id="281" title="Contact page"]'); ?>
             </div>
 		</div>
