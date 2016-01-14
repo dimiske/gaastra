@@ -54,6 +54,11 @@ h4, h4 a {
 
 a{
     color: $gaastra-blue;
+    text-decoration: none;
+}
+
+a:hover, a:active{
+    text-decoration: none;
 }
 
 p{
@@ -141,6 +146,24 @@ header {
     margin-bottom: 20px;
 }
 
+.lookbook-sm{
+    display: block;
+}
+
+.lookbook-lg{
+    display: none;
+}
+
+@media (min-width: 992px){
+    .lookbook-sm{
+        display: none;
+    }
+
+    .lookbook-lg{
+        display: block;
+    }
+}
+
 .lookbook h2{
     padding-top: 0;
 }
@@ -197,16 +220,22 @@ article#despre div{
     display: none;
 }
 
-.main-text-mobile{
-    display: block;
+.main-text-mobile h4{
+    display: none;
+}
+
+@media (min-width: 768px){
+    .main-text-mobile h4{
+        display: block;
+    }
 }
 
 @media (min-width: 992px){
-    .main-banner .intro-text, .intro-lookbook-text {
+    .main-banner .intro-text{
         display: block;
     }
 
-    .main-text-mobile {
+    .main-text-mobile{
         display: none;
     }
 
@@ -357,9 +386,6 @@ footer {
     padding-right: 0;
 }
 
-
-
-
 .banner-item.contact p{
     text-align: center;
     font-size: 16px;
@@ -390,9 +416,7 @@ footer {
     padding-left: 0;
     padding-right: 0;
 }
-.footer-2{
-    padding-right: 160px;
-}
+
 .footer-2 div, .footer-3 div{
     padding-bottom: 20px;
 }
@@ -404,12 +428,15 @@ footer {
     font-weight: 400;
     transition: all .3s ease;
     color: #14284b;
+    margin-top: 20px;
 }
 .custom-button-footer:focus {
     outline: none;
 }
 .custom-button-footer:hover {
-    background-color: #b8bec9;
+    background-color: #14284b;
+    border: 1px solid #fff;
+    color: #ffffff;
 }
 .footer-gaastra {
     background: #14284b;
@@ -445,8 +472,16 @@ footer {
 .gaastra-blog{
     padding-top: 20px;
 
+    h1.entry_title{
+        margin: 0;
+        padding: 40px 15px 0 0;
+    }
+    .post_date{
+        color: $border-color;
+        padding-bottom: 30px;
+    }
     h1{
-        margin-bottom: 40px;
+        margin-bottom: 10px;
     }
     h3{
         margin-top: 0;
@@ -482,20 +517,53 @@ footer {
     .blogpost-item{
         padding: 0;
     }
-    .blogpost-item.item-2 .holder{
-        margin-right: 10px;
+    @media (min-width: 992px){
+        .blogpost-item.item-2 .holder{
+            margin-right: 10px;
+        }
     }
     .blogpost-item.item-3 .holder{
         margin-left: 10px;
     }
     .blogpost-item.item-2 .blog-img,
     .blogpost-item.item-3 .blog-img{
-        min-height: 220px;
+        min-height: 280px;
         overflow: hidden;
     }
-    .blogpost-item.item-2 .blog-txt,
-    .blogpost-item.item-3 .blog-txt{
-        min-height: 290px;
+    @media (min-width: 992px){
+        .blogpost-item.item-2 .blog-img,
+        .blogpost-item.item-3 .blog-img{
+            min-height: 180px;
+        }
+        .blogpost-item.item-2 .blog-txt,
+        .blogpost-item.item-3 .blog-txt{
+            min-height: 380px;
+        }
+    }
+    @media (min-width: 1200px){
+        .blogpost-item.item-2 .blog-img,
+        .blogpost-item.item-3 .blog-img{
+            min-height: 220px;
+        }
+        .blogpost-item.item-2 .blog-txt,
+        .blogpost-item.item-3 .blog-txt{
+            min-height: 290px;
+        }
+    }
+    .social-media{
+        padding-bottom: 40px;
+    }
+    .entry-meta{
+        text-align: left;
+    }
+    .form-group p{
+        padding-bottom: 10px;
+    }
+    .form-group h3{
+        @extend h4;
+    }
+    #url, label[for="url"]{
+        display: none;
     }
 }
 
@@ -522,6 +590,14 @@ button[type="submit"].search-icon{
             height: 350px;
         }
     }
+    .blog_date{
+        display: none;
+    }
+    @media (min-width: 768px){
+        .blog_date{
+            display: block;
+        }
+    }
     .holder{
         margin-bottom: 20px;
         border: 1px solid $border-color;
@@ -532,7 +608,7 @@ button[type="submit"].search-icon{
         background: none;
         line-height: 1.5em;
         padding: 10px;
-        height: 90px;
+        height: 120px;
         text-align: left;
         
         span{
@@ -540,11 +616,36 @@ button[type="submit"].search-icon{
         }
     }
     
+    .img-holder-xs{
+        display: none;
+    }
+    .img-holder-lg{
+        display: block;
+    }
+    
+    @media (max-width: 767px){
+        a{
+            height: 60px;
+        }
+        .img-holder-xs{
+            display: block;
+        }
+        .img-holder-lg{
+            display: none;
+        }
+    }
+    
+    @media (min-width: 992px){
+        a{
+            height: 90px;
+        }
+    }
+    
 }
 
 .blog_home p{
-        padding-bottom: 40px;
-    }
+    padding-bottom: 40px;
+}
 .most_viewed h3{
     text-align: left;
 }
@@ -564,9 +665,19 @@ button[type="submit"].search-icon{
 .gaastra-blog .entry_content p{
     padding-bottom: 20px;
 }
-.gaastra-blog h1.entry_title{
-    margin: 0;
-    padding: 40px 15px 40px 0;
+.gaastra-blog .side{
+    padding-right: 0;
+    h3 a{
+        font-size: 18px;
+    }
+}
+.gaastra_blog_sidebar{
+    display: none;
+}
+@media (min-width: 992px){
+    .gaastra_blog_sidebar{
+        display: block;
+    }
 }
 .gaastra_blog_sidebar{
     text-align: center;
@@ -581,6 +692,9 @@ button[type="submit"].search-icon{
             font-weight: normal;
             color: $border-color;
         }
+    }
+    .search-icon{
+        padding: 9px 12px;
     }
 }
 
@@ -623,6 +737,89 @@ body{
     color: $gaastra-blue;
 }
 
+.footer-gaastra.lg{
+    display: none;
+}
+
+.footer-gaastra.sm{
+    display: block;
+    .logo, .logos{
+        text-align: center;
+    }
+    .footer-menu span{
+        display: block;
+        text-align: left;
+        padding-left: 15%;
+    }
+    .footer-menu{
+        padding-top: 20px;
+    }
+    .footer-2{
+        padding-top: 40px;
+        text-align: left;
+        .label-input {
+            font-family: $font-sans;
+            font-size: 16px;
+            padding-left: 8.5%;
+            font-weight: 400;
+        }
+        .email-address {
+            margin-left: 8.5%;
+            width: 65%;
+        }
+        .custom-button-footer { 
+            display: inline-block;
+            position: absolute;
+            top: 77px;
+            right: 0;
+            margin-top: 0;
+        }
+        .copyright {
+            text-align: center;
+            padding-top: 20px;
+        }
+    }
+    .logos img {
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-gaastra.sm  {
+        .footer-2 {
+            padding-top: 10px;
+            text-align: center; 
+            .label-input {
+                padding-left: 0;
+            }
+            .email-address {
+                margin: 0 auto;
+            }
+            .custom-button-footer {
+                display: block;
+                position: relative;
+                margin: 20px auto;
+                top: 0;
+            }
+        }
+        .footer-menu span {
+            text-align: center;
+        }
+        .logos {
+            padding-bottom: 20px;
+        }
+    }
+}
+
+@media (min-width: 992px){
+    .footer-gaastra.lg{
+        display: block;
+    }
+
+    .footer-gaastra.sm{
+        display: none;
+    }
+}
 
 .footer-gaastra .email-address::-webkit-input-placeholder{
     color: $gaastra-blue;
@@ -645,4 +842,8 @@ body{
 }
 .custom-button-footer{
     font-weight: 500;
+}
+
+.entry-meta .tag-links a{
+    color: $border-color;
 }
