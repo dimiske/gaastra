@@ -285,27 +285,22 @@ button[type="submit"] {
     margin-bottom: 15px;
   }
 
-  /* line 248, style2.scss */
-  .main-text-mobile {
-    display: block;
-  }
-
-  /* line 251, style2.scss */
+  /* line 249, style2.scss */
   .intro-lookbok-text {
     display: none;
   }
 
-  /* line 254, style2.scss */
+  /* line 252, style2.scss */
   .padding-top {
     padding-top: 40px;
   }
 
-  /* line 257, style2.scss */
+  /* line 255, style2.scss */
   .padding-top-small {
     padding-top: 10px;
   }
 
-  /* line 260, style2.scss */
+  /* line 258, style2.scss */
   .centered-image {
     width: 280px;
   }
@@ -313,49 +308,60 @@ button[type="submit"] {
 /* Media queries  for small devices - Tablets */
 /* Media queries  for small devices - Phones */
 @media screen and (max-width: 768px) {
-  /* line 272, style2.scss */
+  /* line 270, style2.scss */
   .aria-section > div > p {
     margin-bottom: 30px;
   }
 
-  /* line 275, style2.scss */
+  /* line 274, style2.scss */
+  .timeline-container .padding-small {
+    margin-right: 0;
+  }
+
+  /* line 278, style2.scss */
   .timeline-images {
     display: none;
   }
 
-  /* line 278, style2.scss */
+  /* line 281, style2.scss */
   .padding-top {
     padding-top: 0px;
   }
 
-  /* line 281, style2.scss */
+  /* line 284, style2.scss */
   #contactCarousel .carousel-control {
     top: 44%;
   }
-  /* line 283, style2.scss */
+  /* line 286, style2.scss */
   #contactCarousel .carousel-control i {
     font-size: 48px;
   }
 
-  /* line 287, style2.scss */
+  /* line 290, style2.scss */
   .text-alignment {
     text-align: center;
   }
 
-  /* line 290, style2.scss */
+  /* line 293, style2.scss */
   .wpcf7 {
     margin-top: 20px;
   }
 
-  /* line 293, style2.scss */
+  /* line 296, style2.scss */
   .wpcf7-submit {
     margin-bottom: 20px;
   }
 }
 /* Media queries  for small devices - Phones */
 @media screen and (max-width: 360px) {
-  /* line 300, style2.scss */
+  /* line 303, style2.scss */
   .centered-image {
     width: 300px;
+  }
+}
+@media screen and (max-width: 320px) {
+  /* line 309, style2.scss */
+  .centered-image {
+    width: 260px;
   }
 }

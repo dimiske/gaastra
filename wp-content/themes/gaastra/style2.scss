@@ -245,9 +245,7 @@ button[type="submit"] {
 	.text-margin-bottom {
 		margin-bottom: 15px;
 	}
-	.main-text-mobile {
-		display: block;
-	}
+	
 	.intro-lookbok-text {
 		display: none;
 	}
@@ -271,6 +269,11 @@ button[type="submit"] {
 @media screen and (max-width: 768px) {
 	.aria-section > div > p {
 		margin-bottom: 30px;
+	}
+	.timeline-container {
+		.padding-small {
+			margin-right: 0;
+		}
 	}
 	.timeline-images {
 		display: none;
@@ -302,4 +305,8 @@ button[type="submit"] {
 	}
 }
 
-
+@media screen and (max-width: 320px) {
+	.centered-image {
+		width: 260px;
+	}
+}
