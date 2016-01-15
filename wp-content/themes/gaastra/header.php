@@ -12,6 +12,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Favicon -->
+    <link sizes="196x196" href="<?php echo get_template_directory_uri(); ?>/images/favicon-196x196.png" type="image/png" rel="icon">
+    <link sizes="160x160" href="<?php echo get_template_directory_uri(); ?>/images/favicon-160x160.png" type="image/png" rel="icon">
+    <link sizes="96x96" href="<?php echo get_template_directory_uri(); ?>/images/favicon-96x96.png" type="image/png" rel="icon">
+    <link sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/images/favicon-16x16.png" type="image/png" rel="icon">
+    <link sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/images/favicon-32x32.png" type="image/png" rel="icon">
+    
     <?php wp_head(); ?></head>
 
     

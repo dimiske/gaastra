@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div class="row">
-	<div class="intro col-lg-12">
+	<div class="despre-intro col-lg-12">
 		<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-banner.jpg" class="img-responsive"/>
 	</div>
 </div>

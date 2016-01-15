@@ -381,7 +381,7 @@ footer {
     margin-right: 0;
 }
 
-.intro, .navbar .container, .despre > div{
+.intro, .despre-intro, .navbar .container, .despre > div{
     padding-left: 0;
     padding-right: 0;
 }
@@ -442,25 +442,24 @@ footer {
 .footer-gaastra {
     background: #14284b;
 }
-.footer-3 .copyright{
-    text-align: right;
-}
+
 .footer-3 div.logos{
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+    text-align: left;
 }
 .footer-3 .fb{
-    float: left;
-    width: 33%;
+    display: inline-block;
+    width: 20%;
     text-align: left;
 }
 .footer-3  .pint{
-    float: left;
-    width: 33%;
+    display: inline-block;
+    width: 20%;
     text-align: center;
 }
 .footer-3  .insta{
-    float: right;
-    width: 32%;
+    display: inline-block;
+    width: 20%;
     text-align: right;
 }
 .generic-page{
