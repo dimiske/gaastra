@@ -1360,20 +1360,24 @@ body {
   .footer-gaastra.sm .footer-1 .logo {
     text-align: center;
   }
-  /* line 831, style.scss */
+  /* line 830, style.scss */
+  .footer-gaastra.sm .footer-1 span {
+    padding-right: 0;
+  }
+  /* line 834, style.scss */
   .footer-gaastra.sm .footer-2 {
     padding-top: 10px;
     text-align: center;
   }
-  /* line 834, style.scss */
+  /* line 837, style.scss */
   .footer-gaastra.sm .footer-2 .label-input {
     padding-left: 0;
   }
-  /* line 837, style.scss */
+  /* line 840, style.scss */
   .footer-gaastra.sm .footer-2 .email-address {
     margin: 0 auto;
   }
-  /* line 840, style.scss */
+  /* line 843, style.scss */
   .footer-gaastra.sm .footer-2 .custom-button-footer {
     display: block;
     position: relative;
@@ -1381,63 +1385,74 @@ body {
     top: 0;
     right: 0;
   }
-  /* line 848, style.scss */
+  /* line 851, style.scss */
   .footer-gaastra.sm .footer-menu span {
     text-align: center;
   }
-  /* line 851, style.scss */
+  /* line 854, style.scss */
   .footer-gaastra.sm .logos {
     padding: 0 10px 20px 10px;
   }
 }
+@media screen and (min-width: 992px) {
+  /* line 860, style.scss */
+  .footer-gaastra.lg {
+    display: block;
+  }
+
+  /* line 863, style.scss */
+  .footer-gaastra.sm {
+    display: none;
+  }
+}
 @media (max-width: 992px) {
-  /* line 858, style.scss */
+  /* line 868, style.scss */
   .footer-gaastra.lg {
     display: none;
   }
 
-  /* line 862, style.scss */
+  /* line 872, style.scss */
   .footer-gaastra.sm {
     display: block;
   }
 }
-/* line 867, style.scss */
+/* line 877, style.scss */
 .footer-gaastra .email-address::-webkit-input-placeholder {
   color: #14284b;
 }
 
-/* line 871, style.scss */
+/* line 881, style.scss */
 .footer-gaastra .email-address:-moz-placeholder {
   color: #14284b;
 }
 
-/* line 875, style.scss */
+/* line 885, style.scss */
 .footer-gaastra .email-address::-moz-placeholder {
   color: #14284b;
 }
 
-/* line 879, style.scss */
+/* line 889, style.scss */
 .footer-gaastra .email-address:-ms-input-placeholder {
   color: #14284b;
 }
 
-/* line 882, style.scss */
+/* line 892, style.scss */
 .generic-page h1.entry-title {
   margin: 0;
   padding: 40px 0;
 }
 
-/* line 886, style.scss */
+/* line 896, style.scss */
 .custom-button-footer {
   font-weight: 500;
 }
 
-/* line 890, style.scss */
+/* line 900, style.scss */
 .entry-meta .tag-links a {
   color: #b8bec9;
 }
 
-/* line 894, style.scss */
+/* line 904, style.scss */
 .footer-gaastra .email-address {
   width: 80%;
 }
