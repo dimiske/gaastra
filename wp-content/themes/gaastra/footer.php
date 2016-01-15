@@ -13,7 +13,7 @@
             <div class="col-lg-4 col-md-4 footer-2">
                 <div class="label-input">Fii primul care află noutățile Gaastra!</div>
                 <!--<?php echo do_shortcode('[mc4wp_form id="255"]'); ?>-->
-               <input name="email" placeholder="Adresa de e-mail" class="form-input email-address" />
+                <input name="email" placeholder="Adresa de e-mail" class="form-input email-address" />
                 <input type="button" value="Abonează-te!" class="custom-button-footer">
             </div> 
             
