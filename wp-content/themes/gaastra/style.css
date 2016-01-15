@@ -1346,113 +1346,128 @@ body {
   }
   /* line 806, style.scss */
   .footer-gaastra.sm .footer-2 .custom-button-footer {
-    right: 17%;
+    right: 0;
   }
 }
-@media screen and (max-width: 768px) {
-  /* line 817, style.scss */
+@media screen and (min-width: 768px) {
+  /* line 815, style.scss */
+  .footer-gaastra.sm {
+    position: relative;
+  }
+  /* line 818, style.scss */
   .footer-gaastra.sm .footer-2 .custom-button-footer {
     right: 9%;
   }
+  /* line 823, style.scss */
+  .footer-gaastra.sm .footer-3 .logos {
+    display: inline-block;
+    padding-bottom: 0;
+  }
 }
 @media screen and (max-width: 480px) {
-  /* line 827, style.scss */
+  /* line 834, style.scss */
   .footer-gaastra.sm .footer-1 .logo {
     text-align: center;
   }
-  /* line 830, style.scss */
+  /* line 837, style.scss */
   .footer-gaastra.sm .footer-1 span {
     padding-right: 0;
   }
-  /* line 834, style.scss */
+  /* line 841, style.scss */
   .footer-gaastra.sm .footer-2 {
     padding-top: 10px;
     text-align: center;
   }
-  /* line 837, style.scss */
+  /* line 844, style.scss */
   .footer-gaastra.sm .footer-2 .label-input {
     padding-left: 0;
   }
-  /* line 840, style.scss */
+  /* line 847, style.scss */
   .footer-gaastra.sm .footer-2 .email-address {
     margin: 0 auto;
   }
-  /* line 843, style.scss */
+  /* line 850, style.scss */
   .footer-gaastra.sm .footer-2 .custom-button-footer {
     display: block;
     position: relative;
-    margin: 20px auto;
+    margin: 20px auto 0;
     top: 0;
     right: 0;
   }
-  /* line 851, style.scss */
+  /* line 857, style.scss */
+  .footer-gaastra.sm .footer-2 .copyright {
+    padding-top: 0;
+  }
+  /* line 861, style.scss */
   .footer-gaastra.sm .footer-menu span {
     text-align: center;
   }
-  /* line 854, style.scss */
+  /* line 864, style.scss */
   .footer-gaastra.sm .logos {
+    text-align: center;
     padding: 0 10px 20px 10px;
+    display: block;
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 860, style.scss */
+  /* line 872, style.scss */
   .footer-gaastra.lg {
     display: block;
   }
 
-  /* line 863, style.scss */
+  /* line 875, style.scss */
   .footer-gaastra.sm {
     display: none;
   }
 }
 @media (max-width: 992px) {
-  /* line 868, style.scss */
+  /* line 880, style.scss */
   .footer-gaastra.lg {
     display: none;
   }
 
-  /* line 872, style.scss */
+  /* line 884, style.scss */
   .footer-gaastra.sm {
     display: block;
   }
 }
-/* line 877, style.scss */
+/* line 889, style.scss */
 .footer-gaastra .email-address::-webkit-input-placeholder {
   color: #14284b;
 }
 
-/* line 881, style.scss */
+/* line 893, style.scss */
 .footer-gaastra .email-address:-moz-placeholder {
   color: #14284b;
 }
 
-/* line 885, style.scss */
+/* line 897, style.scss */
 .footer-gaastra .email-address::-moz-placeholder {
   color: #14284b;
 }
 
-/* line 889, style.scss */
+/* line 901, style.scss */
 .footer-gaastra .email-address:-ms-input-placeholder {
   color: #14284b;
 }
 
-/* line 892, style.scss */
+/* line 904, style.scss */
 .generic-page h1.entry-title {
   margin: 0;
   padding: 40px 0;
 }
 
-/* line 896, style.scss */
+/* line 908, style.scss */
 .custom-button-footer {
   font-weight: 500;
 }
 
-/* line 900, style.scss */
+/* line 912, style.scss */
 .entry-meta .tag-links a {
   color: #b8bec9;
 }
 
-/* line 904, style.scss */
+/* line 916, style.scss */
 .footer-gaastra .email-address {
   width: 80%;
 }

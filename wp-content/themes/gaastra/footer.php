@@ -33,14 +33,14 @@
     
     <div class="footer-gaastra sm">
         <div class="container">
-            <div class="col-xs-12 col-sm-7 footer-1">
+            <div class="col-sm-7 col-md-7 col-lg-7 footer-1">
                 <div class="logo"><a href="<?php echo site_url(); ?>"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/footer/logo-footer.jpg" alt="" /></a></div>
                 <div class="footer-menu">
                     <span><a href="<?php echo site_url(); ?>/termeni-si-conditii">Termeni și condiții</a></span>
                 </div>
             </div>
             
-            <div class="col-xs-12 col-sm-5 footer-3">
+            <div class="col-sm-5 col-md-5 col-lg-5 footer-3">
                 <div class="logos">
                     <a href="https://www.facebook.com/gaastra.ro" target="_blank"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/icons/facebook-icon.png" alt="" /></a>
                     <a href="https://www.pinterest.com/gaastraromania/" target="_blank"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/icons/pinterest-icon.png" alt="" /></a>

@@ -804,23 +804,30 @@ body{
                 margin-left: 0;
             }
             .custom-button-footer {
-                right: 17%;
+                right: 0;
             }
         }
 
     }
 }
 
-@media screen and (max-width: 768px) {
-    .footer-gaastra.sm {
+@media screen and (min-width: 768px) {
+    .footer-gaastra.sm { 
+        position: relative;
         .footer-2 {
             .custom-button-footer {
                 right: 9%;
             }
         }
-
+        .footer-3 {
+            .logos {
+                display: inline-block;
+                padding-bottom: 0;
+            }
+        }
     }
 }
+
 @media screen and (max-width: 480px) {
     .footer-gaastra.sm  {
         .footer-1 {
@@ -843,16 +850,21 @@ body{
             .custom-button-footer {
                 display: block;
                 position: relative;
-                margin: 20px auto;
+                margin: 20px auto 0;
                 top: 0;
                 right: 0;
+            }
+            .copyright {
+                padding-top: 0;
             }
         }
         .footer-menu span {
             text-align: center;
         }
         .logos {
+            text-align: center;
             padding: 0 10px 20px 10px;
+            display: block;
         }
     }
 }
