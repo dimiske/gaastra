@@ -7,7 +7,7 @@
 		<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/lookbook/lookbook-top-image-1.jpg" class="img-responsive"/>
 		<div class="container">
 			<div class="intro-lookbook-text banner-item text-center">
-			    <h3 class="italic">Colecția de iarnă 2016</h3>
+			    <h3 class="italic">Colecția de Iarnă 2016</h3>
 				<h3>Lookbook</h3>
 			</div>
 		</div>

@@ -61,7 +61,7 @@
 	<div class="row padding-small">
 		<div class="col-xs-12 col-sm-4 col-sm-offset-2 col-md-4 col-md-offset-2 col-lg-4 coll-lg-offset-2 text-center">
 			<figure>
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-image-5.jpg" class="img-responsive">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/despre/despre-image-5.jpg" class="img-responsive text-image">
 			</figure>
 		</div>
 		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">

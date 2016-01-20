@@ -8,26 +8,26 @@ Text Domain: gaastra
 */
 /* Variables */
 /* Style */
-/* line 10, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 10, style2.scss */
 p {
   font-size: 16px;
   font-family: Roboto, sans-serif;
 }
 
-/* line 15, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 15, style2.scss */
 .text-on-banner, .text-on-landing-banner {
   font-family: Lora, serif;
   font-style: italic;
   color: #14284b;
 }
 
-/* line 21, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 21, style2.scss */
 .text-on-banner {
   font-size: 18px;
   font-weight: 600;
 }
 
-/* line 26, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 26, style2.scss */
 .text-on-landing-banner {
   font-weight: 400;
   font-size: 24px;
@@ -35,69 +35,69 @@ p {
   display: inline-block;
 }
 
-/* line 34, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 34, style2.scss */
 .site-header nav {
   border-bottom: 1px solid #b8bec9;
 }
 
-/* line 39, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 39, style2.scss */
 .padding-big {
   padding: 80px 0 40px 0;
 }
 
-/* line 43, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 43, style2.scss */
 .padding-medium {
   padding: 40px 0;
 }
 
-/* line 47, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 47, style2.scss */
 .padding-small {
   padding: 20px 0;
 }
 
-/* line 51, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 51, style2.scss */
 .padding-extra-small {
   padding: 0 0 10px 0;
 }
 
-/* line 55, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 55, style2.scss */
 figure {
   margin-bottom: 10px;
 }
 
-/* line 59, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 59, style2.scss */
 .aria-section {
   padding-bottom: 40px;
   border-bottom: 1px solid #b8bec9;
 }
 
-/* line 64, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 64, style2.scss */
 .smaller-width {
   max-width: 600px;
 }
 
-/* line 68, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 68, style2.scss */
 .smaller-text {
   font-size: 16px;
   font-weight: 400;
 }
 
-/* line 73, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 73, style2.scss */
 .timeline-container {
   background-image: url(images/despre/despre-pattern.jpg);
   padding-bottom: 20px;
 }
-/* line 76, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 76, style2.scss */
 .timeline-container .padding-small {
   margin-right: 40px;
 }
-/* line 79, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 79, style2.scss */
 .timeline-container .years {
   font-family: Lora, serif;
   font-size: 30px;
   margin: 0 auto;
 }
-/* line 84, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 84, style2.scss */
 .timeline-container .despre-thumbnails {
   max-width: 326px;
   max-height: 218px;
@@ -106,20 +106,20 @@ figure {
   margin-bottom: 20px;
 }
 
-/* line 93, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 93, style2.scss */
 .module {
   margin-bottom: 20px;
 }
-/* line 95, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 95, style2.scss */
 .module h3 {
   padding-bottom: 40px;
 }
-/* line 98, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 98, style2.scss */
 .module .circle {
   position: relative;
   margin-bottom: 20px;
 }
-/* line 101, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 101, style2.scss */
 .module .circle img {
   width: 190px;
   height: 190px;
@@ -127,7 +127,7 @@ figure {
   display: block;
   margin: 0 auto;
 }
-/* line 108, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 108, style2.scss */
 .module .circle .big-number {
   font-family: Lora, serif;
   font-size: 72px;
@@ -138,7 +138,7 @@ figure {
   width: 100%;
 }
 
-/* line 120, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 120, style2.scss */
 .form-input {
   display: block;
   width: 100%;
@@ -151,16 +151,16 @@ figure {
   border: 1px solid #b8bec9;
   border-radius: 0;
 }
-/* line 131, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 131, style2.scss */
 .form-input:focus {
   outline: none;
 }
-/* line 134, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 134, style2.scss */
 .form-input textarea {
   height: 200px;
 }
 
-/* line 139, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 139, style2.scss */
 .custom-button, .banner-item a, .banner-item .button-link, #despre a, .button-link {
   background-color: #ffffff;
   border: 1px solid #14284b;
@@ -169,277 +169,288 @@ figure {
   font-weight: 400;
   transition: all .3s ease;
 }
-/* line 146, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 146, style2.scss */
 .custom-button:focus, .banner-item a:focus, .banner-item .button-link:focus, #despre a:focus, .button-link:focus {
   outline: none;
 }
-/* line 149, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 149, style2.scss */
 .custom-button:hover, .banner-item a:hover, .banner-item .button-link:hover, #despre a:hover, .button-link:hover {
   background-color: #14284b;
   color: #ffffff;
 }
 
-/* line 155, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 155, style2.scss */
 button[type="submit"] {
   margin-top: 20px;
 }
 
-/* line 159, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 159, style2.scss */
 .emphasized {
   font-weight: 500;
   color: #14284b;
   line-height: 2;
 }
 
-/* line 165, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 165, style2.scss */
 .margin-top {
   margin-top: 20px;
 }
 
-/* line 170, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 170, style2.scss */
 #contactCarousel1 .carousel-inner, #contactCarousel2 .carousel-inner, #contactCarousel3 .carousel-inner {
   width: 100%;
   overflow: hidden;
   position: relative;
 }
-/* line 175, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 175, style2.scss */
 #contactCarousel1 .carousel-control, #contactCarousel2 .carousel-control, #contactCarousel3 .carousel-control {
   background-image: none;
   top: 40%;
   opacity: 1;
 }
-/* line 179, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 179, style2.scss */
 #contactCarousel1 .carousel-control i, #contactCarousel2 .carousel-control i, #contactCarousel3 .carousel-control i {
   font-size: 60px;
   color: #fff;
 }
 
-/* line 186, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 186, style2.scss */
 .text-on-bottom {
   display: flex;
   align-items: flex-end;
   min-height: 560px;
 }
 
-/* line 192, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 192, style2.scss */
 .text-under-image {
   margin-top: 30px;
 }
 
 @media screen and (max-width: 992px) {
-  /* line 197, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+  /* line 197, style2.scss */
   .intro-lookbook-text {
     display: none;
   }
 
-  /* line 200, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+  /* line 200, style2.scss */
   .main-text-mobile {
     display: block;
   }
 
-  /* line 203, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+  /* line 203, style2.scss */
   figure {
     margin-bottom: 15px;
   }
 
-  /* line 206, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+  /* line 206, style2.scss */
   .text-on-bottom {
     min-height: 50px;
   }
 
-  /* line 209, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+  /* line 209, style2.scss */
   .padding-small, .padding-extra-small {
     padding: 0px;
   }
 
-  /* line 212, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+  /* line 212, style2.scss */
   .centered-image {
     max-width: 360px;
     display: inline-block;
   }
 }
 @media screen and (max-width: 1199px) and (min-width: 992px) {
-  /* line 219, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+  /* line 219, style2.scss */
   .text-on-bottom {
     min-height: 465px;
   }
 }
-/* line 224, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 224, style2.scss */
 .intro {
   max-height: 500px;
   overflow: hidden;
 }
 
-/* line 229, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 229, style2.scss */
 .img-thumbnail {
   border-radius: 0px;
   padding: 0px;
 }
 
-/* line 234, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 234, style2.scss */
 .intro-lookbook-text {
   width: 16%;
   position: absolute;
   top: 20%;
 }
 
-/* line 240, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 240, style2.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 244, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 244, style2.scss */
 .footer-gaastra {
   margin-top: 30px;
 }
 
 /* Media queries  for large devices - Desktops */
 @media screen and (max-width: 1200px) {
-  /* line 250, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+  /* line 250, style2.scss */
   .text-alignment {
     text-align: left;
   }
 }
 /* Media queries  for medium devices - Desktops */
 @media screen and (max-width: 992px) {
-  /* line 257, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+  /* line 257, style2.scss */
   .text-margin-bottom {
     margin-bottom: 15px;
   }
 
-  /* line 261, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+  /* line 261, style2.scss */
   .intro-lookbok-text {
     display: none;
   }
 
-  /* line 264, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+  /* line 264, style2.scss */
   .padding-top {
     padding-top: 40px;
   }
 
-  /* line 267, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+  /* line 267, style2.scss */
   .padding-top-small {
     padding-top: 10px;
   }
 
-  /* line 270, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+  /* line 270, style2.scss */
   .centered-image {
     width: 280px;
   }
+
+  /* line 273, style2.scss */
+  .text-image {
+    padding-top: 22%;
+  }
 }
-/* Media queries  for small devices - Tablets */
 /* Media queries  for small devices - Phones */
 @media screen and (max-width: 768px) {
-  /* line 282, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+  /* line 280, style2.scss */
   .aria-section > div > p {
     margin-bottom: 30px;
   }
 
-  /* line 286, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+  /* line 284, style2.scss */
   .timeline-container .padding-small {
     margin-right: 0;
   }
 
-  /* line 290, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+  /* line 288, style2.scss */
   .timeline-images {
     display: none;
   }
 
-  /* line 293, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+  /* line 291, style2.scss */
   .padding-top {
     padding-top: 0px;
   }
 
-  /* line 296, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+  /* line 294, style2.scss */
   #contactCarousel .carousel-control {
     top: 44%;
   }
-  /* line 298, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+  /* line 296, style2.scss */
   #contactCarousel .carousel-control i {
     font-size: 48px;
   }
 
-  /* line 302, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+  /* line 300, style2.scss */
   .text-alignment {
     text-align: center;
   }
 
-  /* line 305, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+  /* line 303, style2.scss */
   .wpcf7 {
     margin-top: 20px;
   }
 
-  /* line 308, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+  /* line 306, style2.scss */
   .wpcf7-submit {
     margin-bottom: 20px;
   }
 }
+@media screen and (max-width: 767px) {
+  /* line 312, style2.scss */
+  .text-image {
+    padding-top: 0;
+    margin: 0 auto;
+  }
+}
 /* Media queries  for small devices - Phones */
 @media screen and (max-width: 360px) {
-  /* line 315, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+  /* line 320, style2.scss */
   .centered-image {
     width: 300px;
   }
 }
 @media screen and (max-width: 320px) {
-  /* line 321, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+  /* line 326, style2.scss */
   .centered-image {
     width: 260px;
   }
 }
 /* Style for comments */
-/* line 327, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 332, style2.scss */
 ol.commentlist {
   list-style-type: none;
   padding-left: 0;
 }
 
-/* line 332, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 337, style2.scss */
 div.comment-author.vcard img {
   display: none;
 }
 
-/* line 336, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 341, style2.scss */
 div.comment-meta.commentmetadata a {
   color: gray;
 }
 
-/* line 340, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 345, style2.scss */
 div.comment-body {
   border-bottom: 1px solid #b8bec9;
   padding: 5px 0;
 }
 
-/* line 345, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 350, style2.scss */
 .landing-intro {
   max-height: 600px;
   overflow: hidden;
 }
-/* line 348, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 353, style2.scss */
 .landing-intro .landing-intro-text {
   position: absolute;
   top: 10%;
   width: 100%;
 }
-/* line 353, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 358, style2.scss */
 .landing-intro form {
   max-width: 350px;
   margin: 20px auto;
   /* firefox 19+ */
   /* ie */
 }
-/* line 356, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 361, style2.scss */
 .landing-intro form input[type="text"], .landing-intro form input[type="submit"] {
   border: 1px solid #14284b;
   background: transparent;
   height: 40px;
   width: 100%;
 }
-/* line 362, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 367, style2.scss */
 .landing-intro form input[type="text"] {
   padding-left: 10px;
 }
-/* line 365, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 370, style2.scss */
 .landing-intro form input[type="submit"] {
   text-align: center;
   color: #14284b;
@@ -449,33 +460,33 @@ div.comment-body {
   font-weight: 400;
   transition: all .3s ease;
 }
-/* line 373, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 378, style2.scss */
 .landing-intro form input[type="submit"]:hover {
   background-color: #14284b;
   color: #ffffff;
 }
-/* line 378, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 383, style2.scss */
 .landing-intro form ::-webkit-input-placeholder {
   color: #14284b;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
-/* line 381, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 386, style2.scss */
 .landing-intro form ::-moz-placeholder {
   color: #14284b;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
-/* line 384, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 389, style2.scss */
 .landing-intro form :-ms-input-placeholder {
   color: #14284b;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
-/* line 387, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 392, style2.scss */
 .landing-intro form input:-moz-placeholder {
   color: #14284b;
   font-family: Roboto, sans-serif;
@@ -483,13 +494,13 @@ div.comment-body {
   font-weight: 400;
 }
 
-/* line 393, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 398, style2.scss */
 .logos img {
   width: 30px;
   height: 30px;
 }
 
-/* line 398, C:/wamp/www/gaastra/wp-content/themes/gaastra/style2.scss */
+/* line 403, style2.scss */
 .footer-1 img {
   width: 250px;
 }

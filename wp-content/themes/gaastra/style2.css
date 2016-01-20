@@ -318,120 +318,131 @@ button[type="submit"] {
   .centered-image {
     width: 280px;
   }
+
+  /* line 273, style2.scss */
+  .text-image {
+    padding-top: 22%;
+  }
 }
-/* Media queries  for small devices - Tablets */
 /* Media queries  for small devices - Phones */
 @media screen and (max-width: 768px) {
-  /* line 282, style2.scss */
+  /* line 280, style2.scss */
   .aria-section > div > p {
     margin-bottom: 30px;
   }
 
-  /* line 286, style2.scss */
+  /* line 284, style2.scss */
   .timeline-container .padding-small {
     margin-right: 0;
   }
 
-  /* line 290, style2.scss */
+  /* line 288, style2.scss */
   .timeline-images {
     display: none;
   }
 
-  /* line 293, style2.scss */
+  /* line 291, style2.scss */
   .padding-top {
     padding-top: 0px;
   }
 
-  /* line 296, style2.scss */
+  /* line 294, style2.scss */
   #contactCarousel .carousel-control {
     top: 44%;
   }
-  /* line 298, style2.scss */
+  /* line 296, style2.scss */
   #contactCarousel .carousel-control i {
     font-size: 48px;
   }
 
-  /* line 302, style2.scss */
+  /* line 300, style2.scss */
   .text-alignment {
     text-align: center;
   }
 
-  /* line 305, style2.scss */
+  /* line 303, style2.scss */
   .wpcf7 {
     margin-top: 20px;
   }
 
-  /* line 308, style2.scss */
+  /* line 306, style2.scss */
   .wpcf7-submit {
     margin-bottom: 20px;
   }
 }
+@media screen and (max-width: 767px) {
+  /* line 312, style2.scss */
+  .text-image {
+    padding-top: 0;
+    margin: 0 auto;
+  }
+}
 /* Media queries  for small devices - Phones */
 @media screen and (max-width: 360px) {
-  /* line 315, style2.scss */
+  /* line 320, style2.scss */
   .centered-image {
     width: 300px;
   }
 }
 @media screen and (max-width: 320px) {
-  /* line 321, style2.scss */
+  /* line 326, style2.scss */
   .centered-image {
     width: 260px;
   }
 }
 /* Style for comments */
-/* line 327, style2.scss */
+/* line 332, style2.scss */
 ol.commentlist {
   list-style-type: none;
   padding-left: 0;
 }
 
-/* line 332, style2.scss */
+/* line 337, style2.scss */
 div.comment-author.vcard img {
   display: none;
 }
 
-/* line 336, style2.scss */
+/* line 341, style2.scss */
 div.comment-meta.commentmetadata a {
   color: gray;
 }
 
-/* line 340, style2.scss */
+/* line 345, style2.scss */
 div.comment-body {
   border-bottom: 1px solid #b8bec9;
   padding: 5px 0;
 }
 
-/* line 345, style2.scss */
+/* line 350, style2.scss */
 .landing-intro {
   max-height: 600px;
   overflow: hidden;
 }
-/* line 348, style2.scss */
+/* line 353, style2.scss */
 .landing-intro .landing-intro-text {
   position: absolute;
   top: 10%;
   width: 100%;
 }
-/* line 353, style2.scss */
+/* line 358, style2.scss */
 .landing-intro form {
   max-width: 350px;
   margin: 20px auto;
   /* firefox 19+ */
   /* ie */
 }
-/* line 356, style2.scss */
+/* line 361, style2.scss */
 .landing-intro form input[type="text"], .landing-intro form input[type="submit"] {
   border: 1px solid #14284b;
   background: transparent;
   height: 40px;
   width: 100%;
 }
-/* line 362, style2.scss */
+/* line 367, style2.scss */
 .landing-intro form input[type="text"] {
   padding-left: 10px;
 }
-/* line 365, style2.scss */
+/* line 370, style2.scss */
 .landing-intro form input[type="submit"] {
   text-align: center;
   color: #14284b;
@@ -441,33 +452,33 @@ div.comment-body {
   font-weight: 400;
   transition: all .3s ease;
 }
-/* line 373, style2.scss */
+/* line 378, style2.scss */
 .landing-intro form input[type="submit"]:hover {
   background-color: #14284b;
   color: #ffffff;
 }
-/* line 378, style2.scss */
+/* line 383, style2.scss */
 .landing-intro form ::-webkit-input-placeholder {
   color: #14284b;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
-/* line 381, style2.scss */
+/* line 386, style2.scss */
 .landing-intro form ::-moz-placeholder {
   color: #14284b;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
-/* line 384, style2.scss */
+/* line 389, style2.scss */
 .landing-intro form :-ms-input-placeholder {
   color: #14284b;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
-/* line 387, style2.scss */
+/* line 392, style2.scss */
 .landing-intro form input:-moz-placeholder {
   color: #14284b;
   font-family: Roboto, sans-serif;
@@ -475,13 +486,13 @@ div.comment-body {
   font-weight: 400;
 }
 
-/* line 393, style2.scss */
+/* line 398, style2.scss */
 .logos img {
   width: 30px;
   height: 30px;
 }
 
-/* line 398, style2.scss */
+/* line 403, style2.scss */
 .footer-1 img {
   width: 250px;
 }

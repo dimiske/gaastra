@@ -270,11 +270,9 @@ button[type="submit"] {
 	.centered-image {
 		width: 280px;
 	}
-}
-
-/* Media queries  for small devices - Tablets */
-@media screen and (min-width: 768px) {
-
+	.text-image {
+		padding-top: 22%;
+	}
 }
 
 /* Media queries  for small devices - Phones */
@@ -307,6 +305,13 @@ button[type="submit"] {
 	}
 	.wpcf7-submit {
 		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.text-image {
+		padding-top: 0;
+		margin: 0 auto;
 	}
 }
 
