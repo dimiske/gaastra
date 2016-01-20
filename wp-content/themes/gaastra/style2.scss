@@ -12,11 +12,22 @@ p {
 	font-family: $font-sans;
 }
 
-.text-on-banner {
+.text-on-banner, .text-on-landing-banner {
 	font-family: $font-serif;
-	font-size: 18px;
 	font-style: italic;
+	color: $text-color;
+}
+
+.text-on-banner {
+	font-size: 18px;
 	font-weight: 600;
+}
+
+.text-on-landing-banner {
+	font-weight: 400;
+	font-size: 24px;
+	margin: 0 auto;
+	display: inline-block;
 }
 
 .site-header {
@@ -309,5 +320,72 @@ button[type="submit"] {
 @media screen and (max-width: 320px) {
 	.centered-image {
 		width: 260px;
+	}
+}
+
+/* Style for comments */
+ol.commentlist {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+div.comment-author.vcard img {
+	display: none;
+}
+
+div.comment-meta.commentmetadata a {
+	color: $text-gray;
+}
+
+div.comment-body {
+	border-bottom: 1px solid #b8bec9;
+	padding: 5px 0;
+}
+
+.landing-intro {
+	max-height: 600px;
+	overflow: hidden;
+	.landing-intro-text {
+		position: absolute;
+		top: 10%; 
+		width: 100%; 
+	}
+	form {
+		max-width: 350px;
+		margin: 20px auto;
+		input[type="text"], input[type="submit"] {
+			border: 1px solid $text-color;
+			background: transparent;
+			height: 40px;
+			width: 100%;
+		}
+		input[type="text"] {
+			padding-left: 10px;
+		}
+		input[type="submit"] {
+			text-align: center;
+			color: $text-color;
+			margin-top: 20px;
+			font-family: $font-sans;
+			font-size: 16px;
+			font-weight: 400;
+			transition: all .3s ease;
+			&:hover {
+				background-color: $text-color;
+				color: #ffffff;
+			}
+		}
+		::-webkit-input-placeholder { color:$text-color; font-family: $font-sans;
+			font-size: 16px;
+			font-weight: 400; }
+		::-moz-placeholder { color:$text-color; font-family: $font-sans;
+			font-size: 16px;
+			font-weight: 400;} /* firefox 19+ */
+		:-ms-input-placeholder { color:$text-color; font-family: $font-sans;
+			font-size: 16px;
+			font-weight: 400; } /* ie */
+		input:-moz-placeholder { color:$text-color; font-family: $font-sans;
+			font-size: 16px;
+			font-weight: 400;}
 	}
 }

@@ -52,6 +52,12 @@ h4, h4 a {
     text-decoration: none;
 }
 
+h5 {
+    font-family: $font-serif;
+    color: $text-color;
+    font-size: 18px;
+}
+
 a{
     color: $gaastra-blue;
     text-decoration: none;
@@ -381,7 +387,7 @@ footer {
     margin-right: 0;
 }
 
-.intro, .despre-intro, .navbar .container, .despre > div{
+.intro, .despre-intro, .landing-intro, .navbar .container, .despre > div{
     padding-left: 0;
     padding-right: 0;
 }
