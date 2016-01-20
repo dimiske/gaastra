@@ -474,3 +474,14 @@ div.comment-body {
   font-size: 16px;
   font-weight: 400;
 }
+
+/* line 393, style2.scss */
+.logos img {
+  width: 30px;
+  height: 30px;
+}
+
+/* line 398, style2.scss */
+.footer-1 img {
+  width: 250px;
+}
