@@ -193,6 +193,28 @@ button[type="submit"] {
 	margin-top: 30px;
 }
 
+.footer-3 .fb{
+	display: inline-block;
+	text-align: left;
+}
+.footer-3  .pint{
+	display: inline-block;
+	text-align: center;
+}
+.footer-3  .insta{
+	display: inline-block;
+	text-align: right;
+}
+
+@media screen and (min-width: 1200px) {
+	.logos img {
+		width: 30px;
+		height: 30px;
+	}
+	.footer-3 .fb, .footer-3  .pint, .footer-3  .insta {
+	    width: 15%;
+	}
+}
 @media screen and (max-width: 992px) {
 	.intro-lookbook-text {
 		display: none;
@@ -273,6 +295,12 @@ button[type="submit"] {
 	.text-image {
 		padding-top: 22%;
 	}
+	.footer-3 .fb, .footer-3 .pint, .footer-3 .insta {
+		width: 25%;
+	}
+	.logos img {
+		padding-right: 0;
+	}
 }
 
 /* Media queries  for small devices - Phones */
@@ -313,12 +341,23 @@ button[type="submit"] {
 		padding-top: 0;
 		margin: 0 auto;
 	}
+	.footer-3 .fb, .footer-3 .pint, .footer-3 .insta {
+		width: 10%;
+	}
+	.footer-gaastra.sm .logos img {
+		width: 30px;
+		height: 30px;
+		padding-right: 0 !important;
+	}
 }
 
 /* Media queries  for small devices - Phones */
 @media screen and (max-width: 360px) {
 	.centered-image {
 		width: 300px;
+	}
+	.footer-3 .fb, .footer-3 .pint, .footer-3 .insta {
+		width: 15%;
 	}
 }
 
@@ -393,11 +432,6 @@ div.comment-body {
 			font-size: 16px;
 			font-weight: 400;}
 	}
-}
-
-.logos img {
-	width: 30px;
-	height: 30px;
 }
 
 .footer-1 img {

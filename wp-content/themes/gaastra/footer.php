@@ -42,9 +42,9 @@
             
             <div class="col-sm-5 col-md-5 col-lg-5 footer-3">
                 <div class="logos">
-                    <a href="https://www.facebook.com/gaastra.ro" target="_blank"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/icons/facebook-icon.png" alt="" /></a>
-                    <a href="https://www.pinterest.com/gaastraromania/" target="_blank"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/icons/pinterest-icon.png" alt="" /></a>
-                    <a href="https://www.instagram.com/gaastra_romania/" target="_blank"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/icons/instagram-icon.png" alt="" /></a>
+                    <div class="fb"><a href="https://www.facebook.com/gaastra.ro" target="_blank"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/icons/facebook-icon.png" alt="" /></a></div>
+                    <div class="pint"><a href="https://www.pinterest.com/gaastraromania/" target="_blank"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/icons/pinterest-icon.png" alt="" /></a></div>
+                    <div class="insta"><a href="https://www.instagram.com/gaastra_romania/" target="_blank"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/icons/instagram-icon.png" alt="" /></a></div>
                 </div>
             </div>
             
@@ -60,9 +60,6 @@
 
     
     <!-- jQuery first, then Bootstrap JS. -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <!--<script src="js/main.js"></script>-->
     <script>
         jQuery('table').addClass('table');
         jQuery('table td img, article.gaastrablog .entry_content img').addClass('img-responsive');
@@ -70,6 +67,15 @@
         jQuery('.blogpost-item.pagination .page-numbers, .gaastra-blog #submit').addClass('button-link');
         jQuery('.form-group input, .form-group textarea').addClass('form-input');
         jQuery('.form-group input#submit').removeClass('form-input');
+        var alink = jQuery('.commentmetadata a').html();
+        jQuery('.commentmetadata').html();
+        jQuery('.commentmetadata').html(alink);
+        jQuery('.gaastra-blog #respond h3').html('Lasă un comentariu');
+        jQuery('.comments_template label').remove();
+        jQuery('.comments_template #author').attr('placeholder', 'Nume*');
+        jQuery('.comments_template #email').attr('placeholder', 'E-mail* (nu va fi făcut public)');
+        jQuery('.comments_template #comment').attr('placeholder', 'Comentariul tău ...');
+        jQuery('.comments_template #submit').attr('value', 'Trimite');
     </script>
     <script>
         $jQuery(document).ready(function() {

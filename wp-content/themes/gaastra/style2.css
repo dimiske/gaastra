@@ -218,231 +218,288 @@ button[type="submit"] {
   margin-top: 30px;
 }
 
+/* line 196, style2.scss */
+.footer-3 .fb {
+  display: inline-block;
+  text-align: left;
+}
+
+/* line 200, style2.scss */
+.footer-3 .pint {
+  display: inline-block;
+  text-align: center;
+}
+
+/* line 204, style2.scss */
+.footer-3 .insta {
+  display: inline-block;
+  text-align: right;
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 210, style2.scss */
+  .logos img {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* line 214, style2.scss */
+  .footer-3 .fb, .footer-3 .pint, .footer-3 .insta {
+    width: 15%;
+  }
+}
 @media screen and (max-width: 992px) {
-  /* line 197, style2.scss */
+  /* line 219, style2.scss */
   .intro-lookbook-text {
     display: none;
   }
 
-  /* line 200, style2.scss */
+  /* line 222, style2.scss */
   .main-text-mobile {
     display: block;
   }
 
-  /* line 203, style2.scss */
+  /* line 225, style2.scss */
   figure {
     margin-bottom: 15px;
   }
 
-  /* line 206, style2.scss */
+  /* line 228, style2.scss */
   .text-on-bottom {
     min-height: 50px;
   }
 
-  /* line 209, style2.scss */
+  /* line 231, style2.scss */
   .padding-small, .padding-extra-small {
     padding: 0px;
   }
 
-  /* line 212, style2.scss */
+  /* line 234, style2.scss */
   .centered-image {
     max-width: 360px;
     display: inline-block;
   }
 }
 @media screen and (max-width: 1199px) and (min-width: 992px) {
-  /* line 219, style2.scss */
+  /* line 241, style2.scss */
   .text-on-bottom {
     min-height: 465px;
   }
 }
-/* line 224, style2.scss */
+/* line 246, style2.scss */
 .intro {
   max-height: 500px;
   overflow: hidden;
 }
 
-/* line 229, style2.scss */
+/* line 251, style2.scss */
 .img-thumbnail {
   border-radius: 0px;
   padding: 0px;
 }
 
-/* line 234, style2.scss */
+/* line 256, style2.scss */
 .intro-lookbook-text {
   width: 16%;
   position: absolute;
   top: 20%;
 }
 
-/* line 240, style2.scss */
+/* line 262, style2.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 244, style2.scss */
+/* line 266, style2.scss */
 .footer-gaastra {
   margin-top: 30px;
 }
 
 /* Media queries  for large devices - Desktops */
 @media screen and (max-width: 1200px) {
-  /* line 250, style2.scss */
+  /* line 272, style2.scss */
   .text-alignment {
     text-align: left;
   }
 }
 /* Media queries  for medium devices - Desktops */
 @media screen and (max-width: 992px) {
-  /* line 257, style2.scss */
+  /* line 279, style2.scss */
   .text-margin-bottom {
     margin-bottom: 15px;
   }
 
-  /* line 261, style2.scss */
+  /* line 283, style2.scss */
   .intro-lookbok-text {
     display: none;
   }
 
-  /* line 264, style2.scss */
+  /* line 286, style2.scss */
   .padding-top {
     padding-top: 40px;
   }
 
-  /* line 267, style2.scss */
+  /* line 289, style2.scss */
   .padding-top-small {
     padding-top: 10px;
   }
 
-  /* line 270, style2.scss */
+  /* line 292, style2.scss */
   .centered-image {
     width: 280px;
   }
 
-  /* line 273, style2.scss */
+  /* line 295, style2.scss */
   .text-image {
     padding-top: 22%;
+  }
+
+  /* line 298, style2.scss */
+  .footer-3 .fb, .footer-3 .pint, .footer-3 .insta {
+    width: 25%;
+  }
+
+  /* line 301, style2.scss */
+  .logos img {
+    padding-right: 0;
   }
 }
 /* Media queries  for small devices - Phones */
 @media screen and (max-width: 768px) {
-  /* line 280, style2.scss */
+  /* line 308, style2.scss */
   .aria-section > div > p {
     margin-bottom: 30px;
   }
 
-  /* line 284, style2.scss */
+  /* line 312, style2.scss */
   .timeline-container .padding-small {
     margin-right: 0;
   }
 
-  /* line 288, style2.scss */
+  /* line 316, style2.scss */
   .timeline-images {
     display: none;
   }
 
-  /* line 291, style2.scss */
+  /* line 319, style2.scss */
   .padding-top {
     padding-top: 0px;
   }
 
-  /* line 294, style2.scss */
+  /* line 322, style2.scss */
   #contactCarousel .carousel-control {
     top: 44%;
   }
-  /* line 296, style2.scss */
+  /* line 324, style2.scss */
   #contactCarousel .carousel-control i {
     font-size: 48px;
   }
 
-  /* line 300, style2.scss */
+  /* line 328, style2.scss */
   .text-alignment {
     text-align: center;
   }
 
-  /* line 303, style2.scss */
+  /* line 331, style2.scss */
   .wpcf7 {
     margin-top: 20px;
   }
 
-  /* line 306, style2.scss */
+  /* line 334, style2.scss */
   .wpcf7-submit {
     margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 312, style2.scss */
+  /* line 340, style2.scss */
   .text-image {
     padding-top: 0;
     margin: 0 auto;
   }
+
+  /* line 344, style2.scss */
+  .footer-3 .fb, .footer-3 .pint, .footer-3 .insta {
+    width: 10%;
+  }
+
+  /* line 347, style2.scss */
+  .footer-gaastra.sm .logos img {
+    width: 30px;
+    height: 30px;
+    padding-right: 0 !important;
+  }
 }
 /* Media queries  for small devices - Phones */
 @media screen and (max-width: 360px) {
-  /* line 320, style2.scss */
+  /* line 356, style2.scss */
   .centered-image {
     width: 300px;
   }
+
+  /* line 359, style2.scss */
+  .footer-3 .fb, .footer-3 .pint, .footer-3 .insta {
+    width: 15%;
+  }
 }
 @media screen and (max-width: 320px) {
-  /* line 326, style2.scss */
+  /* line 365, style2.scss */
   .centered-image {
     width: 260px;
   }
 }
 /* Style for comments */
-/* line 332, style2.scss */
+/* line 371, style2.scss */
 ol.commentlist {
   list-style-type: none;
   padding-left: 0;
 }
 
-/* line 337, style2.scss */
+/* line 376, style2.scss */
 div.comment-author.vcard img {
   display: none;
 }
 
-/* line 341, style2.scss */
+/* line 380, style2.scss */
 div.comment-meta.commentmetadata a {
   color: gray;
 }
 
-/* line 345, style2.scss */
+/* line 384, style2.scss */
 div.comment-body {
   border-bottom: 1px solid #b8bec9;
   padding: 5px 0;
 }
 
-/* line 350, style2.scss */
+/* line 389, style2.scss */
 .landing-intro {
   max-height: 600px;
   overflow: hidden;
 }
-/* line 353, style2.scss */
+/* line 392, style2.scss */
 .landing-intro .landing-intro-text {
   position: absolute;
   top: 10%;
   width: 100%;
 }
-/* line 358, style2.scss */
+/* line 397, style2.scss */
 .landing-intro form {
   max-width: 350px;
   margin: 20px auto;
   /* firefox 19+ */
   /* ie */
 }
-/* line 361, style2.scss */
+/* line 400, style2.scss */
 .landing-intro form input[type="text"], .landing-intro form input[type="submit"] {
   border: 1px solid #14284b;
   background: transparent;
   height: 40px;
   width: 100%;
 }
-/* line 367, style2.scss */
+/* line 406, style2.scss */
 .landing-intro form input[type="text"] {
   padding-left: 10px;
 }
-/* line 370, style2.scss */
+/* line 409, style2.scss */
 .landing-intro form input[type="submit"] {
   text-align: center;
   color: #14284b;
@@ -452,33 +509,33 @@ div.comment-body {
   font-weight: 400;
   transition: all .3s ease;
 }
-/* line 378, style2.scss */
+/* line 417, style2.scss */
 .landing-intro form input[type="submit"]:hover {
   background-color: #14284b;
   color: #ffffff;
 }
-/* line 383, style2.scss */
+/* line 422, style2.scss */
 .landing-intro form ::-webkit-input-placeholder {
   color: #14284b;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
-/* line 386, style2.scss */
+/* line 425, style2.scss */
 .landing-intro form ::-moz-placeholder {
   color: #14284b;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
-/* line 389, style2.scss */
+/* line 428, style2.scss */
 .landing-intro form :-ms-input-placeholder {
   color: #14284b;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
-/* line 392, style2.scss */
+/* line 431, style2.scss */
 .landing-intro form input:-moz-placeholder {
   color: #14284b;
   font-family: Roboto, sans-serif;
@@ -486,13 +543,7 @@ div.comment-body {
   font-weight: 400;
 }
 
-/* line 398, style2.scss */
-.logos img {
-  width: 30px;
-  height: 30px;
-}
-
-/* line 403, style2.scss */
+/* line 437, style2.scss */
 .footer-1 img {
   width: 250px;
 }
