@@ -57,7 +57,7 @@
             </div> 
         </div>
     </div>
-
+    
     
     <!-- jQuery first, then Bootstrap JS. -->
     <script>
@@ -76,15 +76,16 @@
         jQuery('.comments_template #email').attr('placeholder', 'E-mail* (nu va fi făcut public)');
         jQuery('.comments_template #comment').attr('placeholder', 'Comentariul tău ...');
         jQuery('.comments_template #submit').attr('value', 'Trimite');
-    </script>
-    <script>
-        $jQuery(document).ready(function() {
-            $jQuery('.carousel.slide').carousel({
+
+        jQuery(document).ready(function() {
+            jQuery('.carousel.slide').carousel({
                 interval: false,
                 pause: true
             })
         }); 
+
     </script>
+
     <?php wp_footer(); ?>
 
 </body>

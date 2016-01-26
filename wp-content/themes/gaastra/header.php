@@ -18,9 +18,10 @@
     <link sizes="96x96" href="<?php echo get_template_directory_uri(); ?>/images/favicon-96x96.png" type="image/png" rel="icon">
     <link sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/images/favicon-16x16.png" type="image/png" rel="icon">
     <link sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/images/favicon-32x32.png" type="image/png" rel="icon">
-    
-    <?php wp_head(); ?></head>
 
+    <?php wp_head(); ?></head>
+<!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     
 <body>
     
