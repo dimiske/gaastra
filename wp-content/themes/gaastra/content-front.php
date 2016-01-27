@@ -73,7 +73,7 @@
 </article>
 
 
-<article class="lookbook row banner-item">
+<article class="lookbook lookbook-lg row banner-item">
     <h2 class="col-lg-12 home-item-title">Lookbook</h2>
     
     <?php
@@ -96,13 +96,37 @@
 </article>
 
 
+<article class="lookbook lookbook-sm row banner-item">
+    <h2 class="col-lg-12 home-item-title">Lookbook</h2>
+    
+    <?php
+    $args = array(
+        'name'        => 'home-lookbook',
+        'post_type'   => 'post',
+        'post_status' => 'publish',
+        'numberposts' => 1
+    );
+    $my_posts = get_posts($args);
+    if( $my_posts ) : $url = wp_get_attachment_url(get_post_thumbnail_id($my_posts[0]->ID)); endif;
+    ?>
+    <div class="lookbook-img col-lg-12 text-left">
+        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/lookbook/lookbook-top-image-1.jpg" class="img-responsive"/>
+    </div>
+    
+    <div><a href="<?php echo site_url(); ?>/lookbook" class="button-link">Află mai multe</a></div>
+    
+    
+</article>
+
+
+
 <article class="row banner-item contact text-center blog_home">
     <h2>Blog</h2>
     <p>
         Află cele mai noi tendințe în modă, noutăți despre Gaastra și multe altele.<br/>
         Citește blogul Gaastra România!
     </p>
-    <div class="intro col-lg-12 text-left">
+    <div class="col-lg-12 text-left">
         <div class="container">
             <?php echo blogPreview(); ?>
         </div>
@@ -135,32 +159,107 @@
 
 <div class="container foto-gallery">
 		<div class="row padding-small">
-		    <div class="col-lg-12">
-		        <div id="contactCarousel" class="carousel slide">
+		    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		    <!-- Carousel for medium and large devices -->
+		        <div id="contactCarousel1" class="carousel slide visible-md visible-lg">
 		            <div class="carousel-inner">
 		                <div class="item active">
 		                    <div class="row">
-		                        <div class="col-lg-4"><a href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-1.jpg" rel="lightbox[roadtrip]"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-1.jpg" class="img-responsive"></a>
+		                        <div class="col-xs-4"><a href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-1.jpg" rel="lightbox[roadtrip]"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-1.jpg" class="img-responsive img-thumbnail"></a>
 		                        </div>
-		                        <div class="col-lg-4"><a href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-2.jpg" rel="lightbox[roadtrip]"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-2.jpg" class="img-responsive"></a>
+		                        <div class="col-xs-4"><a href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-2.jpg" rel="lightbox[roadtrip]"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-2.jpg" class="img-responsive img-thumbnail"></a>
 		                        </div>
-		                        <div class="col-lg-4"><a href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-3.jpg" rel="lightbox[roadtrip]"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-3.jpg" class="img-responsive"></a>
+		                        <div class="col-xs-4"><a href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-3.jpg" rel="lightbox[roadtrip]"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-3.jpg" class="img-responsive img-thumbnail"></a>
 		                        </div>
 		                    </div>
 		                </div>
 		                <div class="item">
 		                    <div class="row">
-		                        <div class="col-lg-4"><a href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-4.jpg" rel="lightbox[roadtrip]"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-4.jpg" class="img-responsive"></a>
+		                        <div class="col-xs-4"><a href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-4.jpg" rel="lightbox[roadtrip]"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-4.jpg" class="img-responsive img-thumbnail"></a>
 		                        </div>
-		                        <div class="col-lg-4"><a href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-5.jpg" rel="lightbox[roadtrip]"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-5.jpg" class="img-responsive"></a>
+		                        <div class="col-xs-4"><a href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-5.jpg" rel="lightbox[roadtrip]"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-5.jpg" class="img-responsive img-thumbnail"></a>
 		                        </div>
-		                        <div class="col-lg-4"><a href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/map.png" rel="lightbox[roadtrip]"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/map.png" class="img-responsive"></a>
+		                        <div class="col-xs-4"><a href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/map.png" rel="lightbox[roadtrip]"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/map.png" class="img-responsive img-thumbnail"></a>
 		                        </div>
 		                    </div>
 		                </div>
 		            </div>
-		            <a data-slide="prev" href="#contactCarousel" class="left carousel-control"><i class="fa fa-angle-left"></i></a>
-	               	<a data-slide="next" href="#contactCarousel" class="right carousel-control"><i class="fa fa-angle-right"></i></a>
+		            <a data-slide="prev" href="#contactCarousel1" class="left carousel-control"><i class="fa fa-angle-left"></i></a>
+	               	<a data-slide="next" href="#contactCarousel1" class="right carousel-control"><i class="fa fa-angle-right"></i></a>
+		        </div>
+		        <!-- Carousel for small devices -->
+		        <div id="contactCarousel2" class="carousel slide visible-sm">
+		            <div class="carousel-inner">
+		                <div class="item active">
+		                    <div class="row">
+		                        <div class="col-xs-6"><a href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-1.jpg" rel="lightbox[roadtrip]"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-1.jpg" class="img-responsive img-thumbnail"></a>
+		                        </div>
+		                        <div class="col-xs-6"><a href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-2.jpg" rel="lightbox[roadtrip]"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-2.jpg" class="img-responsive img-thumbnail"></a>
+		                        </div>
+		                    </div>
+		                </div>
+		                <div class="item">
+		                    <div class="row">
+		                        <div class="col-xs-6"><a href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-3.jpg" rel="lightbox[roadtrip]"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-3.jpg" class="img-responsive img-thumbnail"></a>
+		                        </div>
+		                        <div class="col-xs-6"><a href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-4.jpg" rel="lightbox[roadtrip]"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-4.jpg" class="img-responsive img-thumbnail"></a>
+		                        </div>
+		                    </div>
+		                </div>
+		                <div class="item">
+		                    <div class="row">
+		                        <div class="col-xs-6"><a href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-5.jpg" rel="lightbox[roadtrip]"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-5.jpg" class="img-responsive img-thumbnail"></a>
+		                        </div>
+		                        <div class="col-xs-6"><a href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/map.png" rel="lightbox[roadtrip]"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/map.png" class="img-responsive img-thumbnail"></a>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		            <a data-slide="prev" href="#contactCarousel2" class="left carousel-control"><i class="fa fa-angle-left"></i></a>
+	               	<a data-slide="next" href="#contactCarousel2" class="right carousel-control"><i class="fa fa-angle-right"></i></a>
+		        </div>
+				<!-- Carousel for extra-small devices -->
+		        <div id="contactCarousel3" class="carousel slide visible-xs">
+		            <div class="carousel-inner">
+		                <div class="item active">
+		                    <div class="row">
+		                        <div class="col-xs-12"><a href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-1.jpg" rel="lightbox[roadtrip]"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-1.jpg" class="img-responsive img-thumbnail"></a>
+		                        </div>
+		                    </div>
+		                </div>
+		                <div class="item">
+		                    <div class="row"> 
+		                        <div class="col-xs-12"><a href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-2.jpg" rel="lightbox[roadtrip]"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-2.jpg" class="img-responsive img-thumbnail"></a>
+		                        </div>
+		                    </div>
+		                </div>
+		                <div class="item">
+		                    <div class="row">
+		                        <div class="col-xs-12"><a href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-3.jpg" rel="lightbox[roadtrip]"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-3.jpg" class="img-responsive img-thumbnail"></a>
+		                        </div>
+		                    </div>
+		                </div>
+		                <div class="item">
+		                	<div class="row">
+		                        <div class="col-xs-12"><a href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-4.jpg" rel="lightbox[roadtrip]"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-4.jpg" class="img-responsive img-thumbnail"></a>
+		                        </div>
+		                    </div>
+		                </div>
+		                <div class="item">
+		                    <div class="row">
+		                        <div class="col-xs-12"><a href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-5.jpg" rel="lightbox[roadtrip]"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/contact-image-5.jpg" class="img-responsive img-thumbnail"></a>
+		                        </div>
+		                    </div>
+		                </div>
+		                <div class="item">
+		                	<div class="row">
+		                        <div class="col-xs-12"><a href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/map.png" rel="lightbox[roadtrip]"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/contact/map.png" class="img-responsive img-thumbnail"></a>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		            <a data-slide="prev" href="#contactCarousel3" class="left carousel-control"><i class="fa fa-angle-left"></i></a>
+	               	<a data-slide="next" href="#contactCarousel3" class="right carousel-control"><i class="fa fa-angle-right"></i></a>
 		        </div>
 		   	</div>
 		</div>
